@@ -36,7 +36,7 @@ class contenedor {
 			const newProductos = JSON.parse(productos);
 			const resultado = newProductos.find((e) => e.id === n);
 			if (resultado) {
-				console.log(resultado);
+				return resultado;
 			} else {
 				return null;
 			}
@@ -49,7 +49,7 @@ class contenedor {
 		try {
 			const productos = await fs.promises.readFile(`./${this.name}`, 'utf-8');
 			const newProductos = JSON.parse(productos);
-			console.log(newProductos);
+			return newProductos;
 		} catch (err) {
 			throw new Error('Ocurrio un error');
 		}
@@ -82,7 +82,7 @@ data.save({
 	price: 290,
 	thumbnail: 'https://www.gastronomiavasca.net/uploads/image/file/3309/w700_acelgas.jpg',
 });
-// data.getById(3);
-// data.getAll();
+//data.getById(3)
+// data.getAll()
 // data.deleteById(3)
 // data.deleteAll()
