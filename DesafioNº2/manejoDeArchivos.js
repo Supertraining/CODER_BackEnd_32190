@@ -82,7 +82,7 @@ data.save({
 	price: 290,
 	thumbnail: 'https://www.gastronomiavasca.net/uploads/image/file/3309/w700_acelgas.jpg',
 });
-//data.getById(3)
-// data.getAll()
+// data.getById(3).then(value => console.log(value))
+// data.getAll().then(value => console.log(value))
 // data.deleteById(3)
 // data.deleteAll()
