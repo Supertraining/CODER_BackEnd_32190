@@ -1,0 +1,1 @@
+[{"title":"Bananas","price":1000,"thumbnail":"htttp://bananas.jpg","id":1},{"title":"Peras","price":7000,"thumbnail":"htttp://Peras.jpg","id":2},{"title":"Frutillas","price":1300,"thumbnail":"htttp://Frutillas.jpg","id":3}]

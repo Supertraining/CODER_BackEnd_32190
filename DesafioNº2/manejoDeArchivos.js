@@ -6,15 +6,10 @@ class contenedor {
 	}
 
 	async save(obj) {
-		let data = null;
 		let newProducto = null;
 		let id = 1;
 
-		try {
-			data = await fs.promises.readFile(`${this.path}`, 'utf-8');
-		} catch (err) {
-			data = [];
-		}
+		let data = await this.getAll()
 
 		if (data.length === 0) {
 			await fs.promises.writeFile(`${this.path}`, JSON.stringify([{ ...obj, id: id }]));
@@ -33,12 +28,7 @@ class contenedor {
 	}
 
 	async getById(n) {
-		let data = null;
-		try {
-			data = await fs.promises.readFile(`${this.path}`, 'utf-8');
-		} catch (err) {
-			throw new Error('Ocurrio un error');
-		}
+		let data = await this.getAll()
 		const newData = JSON.parse(data);
 		const resultado = newData.find((e) => e.id === n);
 		if (resultado) {
@@ -54,17 +44,12 @@ class contenedor {
 			data = await fs.promises.readFile(`${this.path}`, 'utf-8');
 			return data;
 		} catch (err) {
-			return (data = []);
+			return data = [];
 		}
 	}
 
 	async deleteById(n) {
-		let data = null;
-		try {
-			data = await fs.promises.readFile(`${this.path}`, 'utf-8');
-		} catch (err) {
-			throw new Error('Ocurrio un error');
-		}
+		let data = await this.getAll()
 		const newProductos = JSON.parse(data);
 		if (n < 1 || n > newProductos.length) {
 			throw new Error('No existe el producto');
@@ -89,11 +74,11 @@ class contenedor {
 const data = new contenedor('./productos.txt');
 
 data.save({
-	title: 'Sandias',
-	price: 1500,
-	thumbnail: 'https://www.cucinare.tv/wp-content/uploads/2019/04/Sandias.jpg',
+	title: 'Frutillas',
+	price: 2000,
+	thumbnail: 'https://www.cucinare.tv/wp-content/uploads/2019/04/Frutillas.jpg',
 });
-// data.getById(4).then(value => console.log(value))
+// data.getById(3).then(value => console.log(value))
 // data.getAll().then(value => console.log(value))
-// data.deleteById(2)
+// data.deleteById(2);
 // data.deleteAll()
