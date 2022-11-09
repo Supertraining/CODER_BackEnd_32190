@@ -73,12 +73,13 @@ class contenedor {
 
 const data = new contenedor('./productos.txt');
 
-data.save({
-	title: 'Frutillas',
-	price: 2000,
-	thumbnail: 'https://www.cucinare.tv/wp-content/uploads/2019/04/Frutillas.jpg',
-});
+// data.save({
+// 	title: 'Frutillas',
+// 	price: 2000,
+// 	thumbnail: 'https://www.cucinare.tv/wp-content/uploads/2019/04/Frutillas.jpg',
+// });
 // data.getById(3).then(value => console.log(value))
 // data.getAll().then(value => console.log(value))
 // data.deleteById(2);
 // data.deleteAll()
+module.exports = contenedor;
