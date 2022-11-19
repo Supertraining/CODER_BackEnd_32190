@@ -1,0 +1,17 @@
+extends ingresos
+
+block formulario
+
+    h1(style="color:blue;") Ingrese datos
+    form(method="post")
+        div.form-group
+            label(for="nombre") Nombre 
+            input(id="nombre" class="form-control" type="text" name="nombre")
+        div.form-group
+            label(for="precio") Precio 
+            input(id="precio" class="form-control" type="number" name="precio")
+        div.form-group
+            label(for="nombre") Imagen url 
+            input(id="url" class="form-control" type="text" name="url")
+        button(class="btn btn-success mt-3 mb-5 mx-2" formaction="/productos") Agregar producto
+        button(class="btn btn-success mt-3 mb-5 mx2" formaction="/historial") Ver historial

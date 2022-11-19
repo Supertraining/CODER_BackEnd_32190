@@ -1,0 +1,24 @@
+extends productos
+
+block historial
+    h2(style="color:crimson;") Historial
+    - if(productos.length > 0){ 
+        div(class="table-responsive")
+            table(class="table table-dark")
+                tr(style="color: yellow;") 
+                th Nombre 
+                th Precio 
+                th Imagen
+                - for (const producto of productos) {
+                tr
+                    td=producto.nombre
+                    td=producto.precio 
+                    td
+                     img(src=producto.url)
+                - };
+    - } else{ 
+        h3(class="alert alert-danger") no se encontraron datos
+    - } 
+
+    form(action="/" method="get")
+        button(class="btn btn-primary") volver
