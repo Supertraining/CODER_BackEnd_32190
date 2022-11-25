@@ -1,0 +1,35 @@
+
+<h1 style="color:blue;" class="text-center">Ingrese un producto.</h1>
+<br>
+<div class="row justify-content-center">
+    <form class="w-50 border border-dark rounded p-3 mb-5" onsubmit="return addProduct()">
+        <div class="form-group">
+            <label for="nombre"><b>Nombre</b></label>
+            <input id="nombre"
+                class="form-control"
+                type="text"
+                name="nombre">
+        </div>
+
+        <div class="form-group">
+            <label for="precio"><b>Precio</b></label>
+            <input id="precio"
+                class="form-control"
+                type="text"
+                name="precio">
+        </div>
+
+        <div class="form-group">
+            <label for="imagen"><b>Imagen</b></label>
+            <input id="imagen"
+                class="form-control"
+                type="text"
+                name="imagen">
+        </div>
+        <input type="submit"
+            id="btnProd"
+            value="Enviar"
+            class="m-1"><br>
+    </form>
+</div>
+<script src="./js/index.js"></script>

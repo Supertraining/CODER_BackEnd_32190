@@ -1,0 +1,28 @@
+<div class="row border border-dark">
+    <form class="bg-dark rounded d-flex w-100"
+        onsubmit="return addMessage()">
+        <div class="p-3 my-3 w-50">
+            <input class="w-50"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Ingrese su e-mail"><br>
+            <textarea class="w-50 my-1"
+                rows="5"
+                maxlength="200"
+                id="text"
+                placeholder="Tu mensaje..."></textarea><br>
+            <input type="submit"
+                value="Enviar Msj"
+                class="btn btn-light"
+                id="btnMssg">
+        </div>
+        
+        <form />
+        <div class="w-50 bg-light overflow-auto"
+            id="messages"
+            style="height: 300px;">
+        </div>
+</div>
+
+<script src="./js/index.js"></script>
