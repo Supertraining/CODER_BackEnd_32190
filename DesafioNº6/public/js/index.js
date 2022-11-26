@@ -7,7 +7,7 @@ function addProduct() {
 		imagen: document.getElementById('imagen').value,
 	};
 	socket.emit('new-product', producto);
-	return;
+	return false;
 }
 
 socket.on('productos', (data) => {
@@ -37,7 +37,7 @@ function addMessage() {
 		text: document.getElementById('text').value,
 	};
 	socket.emit('new-message', message);
-	return;
+	return false;
 }
 
 socket.on('messages', (data) => {
