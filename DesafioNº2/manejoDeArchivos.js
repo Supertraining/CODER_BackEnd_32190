@@ -3,20 +3,22 @@ const fs = require('fs');
 class contenedor {
 	constructor(path) {
 		this.path = path;
+	
 	}
 
 	async save(obj) {
 		let newProducto = null;
-		let id = 1;
-
+		let id = 0;
 		let data = await this.getAll()
 
 		if (data.length === 0) {
+			id = 1;
 			await fs.promises.writeFile(`${this.path}`, JSON.stringify([{ ...obj, id: id }]));
 			return id;
 		} else {
 			newProducto = JSON.parse(data);
-			newProducto.push({ ...obj, id: newProducto.length + 1 });
+			id = newProducto[newProducto.length -1].id +1
+			newProducto.push({ ...obj, id: id });
 		}
 		try {
 			await fs.promises.writeFile(`${this.path}`, JSON.stringify(newProducto));
@@ -73,12 +75,12 @@ class contenedor {
 
 const data = new contenedor('./productos.txt');
 
-// data.save({
-// 	title: 'Frutillas',
-// 	price: 2000,
-// 	thumbnail: 'https://www.cucinare.tv/wp-content/uploads/2019/04/Frutillas.jpg',
-// });
-// data.getById(3).then(value => console.log(value))
+data.save({
+	title: 'peras',
+	price: 2000,
+	thumbnail: 'https://www.cucinare.tv/wp-content/uploads/2019/04/Peras.jpg',
+});
+data.getById(3).then(value => console.log(value))
 // data.getAll().then(value => console.log(value))
 // data.deleteById(2);
 // data.deleteAll()
