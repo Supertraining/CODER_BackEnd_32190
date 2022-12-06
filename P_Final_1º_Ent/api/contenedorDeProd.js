@@ -14,7 +14,7 @@ class Contenedor {
 			id = 1;
 			await fs.promises.writeFile(
 				`${this.path}`,
-				JSON.stringify([{ ...obj, timestamp: Date.now(), id: id }])
+				JSON.stringify([{ ...obj, id: id, timestamp: Date.now() }])
 			);
 			return id;
 		} else {

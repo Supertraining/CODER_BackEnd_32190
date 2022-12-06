@@ -71,10 +71,12 @@ class Contenedor {
 		let data = await this.getAll();
 		const newData = JSON.parse(data);
 		const exists = newData.find((e) => e.id === n);
-		return (exists) 
-		? exists.productos
-		: { error: 'El carrito no existe' };
-		}
+		return !exists
+			? { error: 'El carrito no existe' }
+			: exists.productos.length === 0
+			? { mensaje: 'El carrito esta vacio' }
+			: exists.productos;
+	}
 
 	async getAll() {
 		let data = null;
