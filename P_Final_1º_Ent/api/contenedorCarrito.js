@@ -9,23 +9,20 @@ class Contenedor {
 		let newCarrito = null;
 		let id = 0;
 		let data = await this.getAll();
-		let newData = JSON.parse(data)
+		let newData = JSON.parse(data);
 		if (newData.length === 0) {
 			id = 1;
-			newData.push(
-					{
-						id: id,
-						timestamp: Date.now(),
-						productos: [],
-					},
-				);
-				try {
-					await fs.promises.writeFile(`${this.path}`, JSON.stringify(newData));
-				} catch (err) {
-					throw new Error('Ocurrio un error' + err);
-				}
+			newData.push({
+				id: id,
+				timestamp: Date.now(),
+				productos: [],
+			});
+			try {
+				await fs.promises.writeFile(`${this.path}`, JSON.stringify(newData));
+			} catch (err) {
+				throw new Error('Ocurrio un error' + err);
+			}
 			return id;
-
 		} else {
 			newCarrito = JSON.parse(data);
 			id = newCarrito[newCarrito.length - 1].id + 1;
@@ -47,15 +44,14 @@ class Contenedor {
 		let dataCarts = await this.getAll();
 		let allCarts = JSON.parse(dataCarts);
 		let selectedCart = allCarts.find((e) => e.id === idCarrito);
-		if(!selectedCart) {
-			return {error: 'el carrito no existe'}
+		if (!selectedCart) {
+			return { error: 'el carrito no existe' };
 		}
 		let dataProducts = await fs.promises.readFile('./persistencia/productos.txt', 'utf-8');
 		let allProducts = JSON.parse(dataProducts);
 		let selectedProduct = allProducts.find((e) => e.id === idProducto);
 		if (!selectedProduct) {
-			return {error: 'el producto no existe'}
-
+			return { error: 'el producto no existe' };
 		}
 		selectedCart.productos.push(selectedProduct);
 		allCarts[allCarts.indexOf(selectedCart)] = selectedCart;
@@ -68,19 +64,17 @@ class Contenedor {
 		} catch (err) {
 			throw new Error('Ocurrio un error' + err);
 		}
-		return {mensaje: 'Producto agregado con exito'}
+		return { mensaje: 'Producto agregado con exito' };
 	}
 
 	async getByCartId(n) {
 		let data = await this.getAll();
 		const newData = JSON.parse(data);
 		const exists = newData.find((e) => e.id === n);
-		if (exists) {
-			return exists.productos;
-		} else {
-			return {error: 'El carrito no existe'};
+		return (exists) 
+		? exists.productos
+		: { error: 'El carrito no existe' };
 		}
-	}
 
 	async getAll() {
 		let data = null;
@@ -100,34 +94,32 @@ class Contenedor {
 			return { error: 'El carrito seleccionado no existe' };
 		}
 		const resultado = newData.filter((e) => e.id !== n);
-		if(resultado.length > 0){
+		if (resultado.length > 0) {
 			try {
-			await fs.promises.writeFile(`${this.path}`, JSON.stringify(resultado));
-		} catch (err) {
-			throw new Error('Ocurrio un error');
-		}
-		return resultado;
+				await fs.promises.writeFile(`${this.path}`, JSON.stringify(resultado));
+			} catch (err) {
+				throw new Error('Ocurrio un error');
+			}
+			return resultado;
 		} else {
 			try {
-				await fs.promises.writeFile(`${this.path}`, JSON.stringify([]))
+				await fs.promises.writeFile(`${this.path}`, JSON.stringify([]));
+			} catch {
+				throw new Error('Ocurrio un error');
 			}
-			catch{
-			throw new Error('Ocurrio un error');
-			}
-			return {mensaje: 'se eliminaron todos los carritos'}
+			return { mensaje: 'se eliminaron todos los carritos' };
 		}
-		
 	}
 	async deleteCartProductById(idCarrito, idProducto) {
 		let data = await this.getAll();
 		const allCarts = JSON.parse(data);
 		const selectedCart = allCarts.find((cart) => cart.id === idCarrito);
-		if(!selectedCart) {
-			return {error: 'el carrito no existe'}
+		if (!selectedCart) {
+			return { error: 'el carrito no existe' };
 		}
-		const selectedProduct = selectedCart.productos.find(e => e.id === idProducto)
-		if(!selectedProduct){
-			return {error: 'el producto no existe'}
+		const selectedProduct = selectedCart.productos.find((e) => e.id === idProducto);
+		if (!selectedProduct) {
+			return { error: 'el producto no existe' };
 		}
 		const updatedProducts = selectedCart.productos.filter((e) => e.id !== idProducto);
 		selectedCart.productos = updatedProducts;
@@ -141,7 +133,7 @@ class Contenedor {
 		} catch (err) {
 			throw new Error('Ocurrio un error' + err);
 		}
-		return {mensaje: 'producto eliminado'}
+		return { mensaje: 'producto eliminado' };
 	}
 }
 const contenedorCarrito = new Contenedor('./persistencia/carritos.txt');

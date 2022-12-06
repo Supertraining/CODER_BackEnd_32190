@@ -9,10 +9,13 @@ class Contenedor {
 		let newProducto = null;
 		let id = 0;
 		let data = await this.getAll();
-		let newData =  JSON.parse(data)
+		let newData = JSON.parse(data);
 		if (newData.length === 0) {
 			id = 1;
-			await fs.promises.writeFile(`${this.path}`, JSON.stringify([{ ...obj, timestamp: Date.now(), id: id }]));
+			await fs.promises.writeFile(
+				`${this.path}`,
+				JSON.stringify([{ ...obj, timestamp: Date.now(), id: id }])
+			);
 			return id;
 		} else {
 			newProducto = JSON.parse(data);
@@ -32,28 +35,28 @@ class Contenedor {
 		let data = await this.getAll();
 		const newData = JSON.parse(data);
 		const exists = newData.find((e) => e.id === n);
-		if (exists) {
-			return exists;
-		} else {
-			return {error : 'el producto no existe'};
+		return(exists)
+		? (exists)
+		: { error: 'el producto no existe' };
 		}
-	}
-	async updateProduct(id,obj) {
-		let data = await this.getAll()
+	async updateProduct(id, obj) {
+		let data = await this.getAll();
 		let listaProductos = null;
-		let exists = JSON.parse(data).find(e => e.id === id)
-		if(!exists) {
-			return {error: 'el producto no existe'}
-		} else {
-			listaProductos = JSON.parse(data)
-			listaProductos[id - 1] = {...obj, id: id, timestamp: Date.now()}
-		}
+		let exists = JSON.parse(data).find((e) => e.id === id);
+		if (!exists) {
+			return { error: 'el producto no existe' };
+		} 
+			listaProductos = JSON.parse(data);
+			let index = listaProductos.findIndex(prod => prod.id === id)
+			listaProductos[index] = { ...obj, id: id, timestamp: Date.now() };
+			console.log(listaProductos[listaProductos.indexOf(exists)]);
+		
 		try {
 			await fs.promises.writeFile(`${this.path}`, JSON.stringify(listaProductos));
 		} catch (err) {
 			throw new Error('Ocurrio un error' + err);
 		}
-		return {mensaje : 'producto actualizado con exito'}
+		return { mensaje: 'producto actualizado con exito' };
 	}
 
 	async getAll() {
@@ -71,7 +74,7 @@ class Contenedor {
 		const newData = JSON.parse(data);
 		const exists = newData.find((e) => e.id === n);
 		if (!exists) {
-			return ('No existe el producto');
+			return 'No existe el producto';
 		}
 		const resultado = newData.filter((e) => e.id !== n);
 		try {
@@ -79,9 +82,9 @@ class Contenedor {
 		} catch (err) {
 			throw new Error('Ocurrio un error');
 		}
-		return {mensaje : 'producto eliminado'}
+		return { mensaje: 'producto eliminado' };
 	}
 }
-const contenedorDeProductos = new Contenedor('./persistencia/productos.txt')
+const contenedorDeProductos = new Contenedor('./persistencia/productos.txt');
 
 module.exports = contenedorDeProductos;
