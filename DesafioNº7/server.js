@@ -50,6 +50,13 @@ io.on('connection', (Socket) => {
 		});
 	});
 
+	Socket.on('selectedProduct', (id) => {
+		productContainer.getProductByID(id)
+		.then((data) => {
+			io.sockets.emit('selectedProd', data);
+	})
+})
+
 	messageContainer.getAll('messages')
 	.then((messages) => Socket.emit('messages', messages));
 	
@@ -60,6 +67,7 @@ io.on('connection', (Socket) => {
 			io.sockets.emit('messages', messages);
 		});
 	});
+
 });
 
 const PORT = 8080;

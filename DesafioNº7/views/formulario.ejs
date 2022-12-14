@@ -42,7 +42,7 @@
         </div>
         <input type="submit"
         id="btnDelete"
-        value="ELiminar"
+        value="Eliminar"
         class="m-1"><br>
     </form> 
     <form class="w-50 border border-dark rounded p-3 m-3" onsubmit="return UpdateProduct()">
@@ -56,6 +56,19 @@
         <input type="submit"
         id="btnUpdate"
         value="Actualizar"
+        class="m-1"><br>
+    </form>
+    <form class="w-50 border border-dark rounded p-3 m-3" onsubmit="return getProductById()">
+        <div class="form-group">
+            <label for="idGetById"><b>Seleccionar producto ID:</b></label>
+            <input id="idGetById"
+                class="form-control"
+                type="text"
+                name="getById">
+        </div>
+        <input type="submit"
+        id="btngetById"
+        value="Seleccionar"
         class="m-1"><br>
     </form>
     </div> 

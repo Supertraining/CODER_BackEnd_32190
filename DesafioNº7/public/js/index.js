@@ -23,6 +23,12 @@ function UpdateProduct() {
 	socket.emit('updatedProduct', updatedProduct);
 }
 
+function getProductById() {
+	const id = document.getElementById('idGetById').value;
+	socket.emit('selectedProduct', id)
+	return false;
+}
+
 socket.on('productos', (data) => {
 	if (data.length === 0) {
 		document.getElementById('tabla').innerHTML = `
@@ -44,6 +50,27 @@ socket.on('productos', (data) => {
 		document.getElementById('tabla').innerHTML = html;
 	}
 });
+socket.on('selectedProd', (data) => {
+	if (data.length === 0) {
+		document.getElementById('tabla-2').innerHTML = `
+						<h3 class="m-2 text-white">no se encontraron datos</h3>
+					`;
+	} else {
+		const html = data
+			.map((el) => {
+				return `    <tr>
+                            <td>${el.nombre}</td>
+                            <td>${el.precio}</td>
+                            <td><img src=${el.imagen}></td>
+                            <td>${el.id}</td>
+                            </tr><br>
+                        `;
+			})
+			.join(' ');
+
+		document.getElementById('tabla-2').innerHTML = html;
+	}
+});
 
 function addMessage() {
 	const message = {
@@ -51,7 +78,6 @@ function addMessage() {
 		message: document.getElementById('text').value,
 	};
 	socket.emit('new-message', message);
-	return false;
 }
 
 socket.on('messages', (data) => {
@@ -67,3 +93,5 @@ socket.on('messages', (data) => {
 
 	document.getElementById('messages').innerHTML = html;
 });
+
+
