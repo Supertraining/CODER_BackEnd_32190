@@ -1,0 +1,117 @@
+1- use ecommerce
+2-a) db.productos.insertMany([
+    {
+        nombre: "manzanas",
+        precio: 500,
+        imagen: "https://cdn3.iconfinder.com/data/icons/fruits-52/150/icon_fruit_maca-64.png"
+    },
+    {
+        nombre: "bananas",
+        precio: 750,
+        imagen: "https://cdn3.iconfinder.com/data/icons/fruits-52/150/icon_fruit_banana-64.png"
+    },
+    {
+        nombre: "anana",
+        precio: 1500,
+        imagen: "https://cdn3.iconfinder.com/data/icons/fruits-52/150/icon_fruit_abacaxi-64.png"
+    },
+    {
+        nombre: "uvas",
+        precio: 600,
+        imagen: "https://cdn3.iconfinder.com/data/icons/fruits-52/150/icon_fruit_uvas-64.png"
+    },
+    {
+        nombre: "cerezas",
+        precio: 2500,
+        imagen: "https://cdn3.iconfinder.com/data/icons/fruits-52/150/icon_fruit_cerejas-64.png"
+    },
+    {
+        nombre: "peras",
+        precio: 400,
+        imagen: "https://cdn3.iconfinder.com/data/icons/fruits-52/150/icon_fruit_pera-64.png"
+    },
+    {
+        nombre: "frutillas",
+        precio: 1000,
+        imagen: "https://cdn3.iconfinder.com/data/icons/fruits-52/150/icon_fruit_morango-64.png"
+    },
+    {
+        nombre: "palta",
+        precio: 3000,
+        imagen: "https://cdn3.iconfinder.com/data/icons/fruits-52/150/icon_fruit_abacate-64.png"
+    },
+    {
+        nombre: "limon",
+        precio: 800,
+        imagen: "https://cdn3.iconfinder.com/data/icons/fruits-52/150/icon_fruit_limao-64.png"
+    },
+    {
+        nombre: "sandia",
+        precio: 4000,
+        imagen: "https://cdn3.iconfinder.com/data/icons/fruits-52/150/icon_fruit_melancia-64.png"
+    }
+    ])
+2-b) db.mensajes.insertMany([
+    {
+        email: 'juan@gmail.com',
+        mensaje: 'hola mundo'
+    },
+    {
+        email: 'gabriel@gmail.com',
+        mensaje: 'hola amigos'
+    },
+    {
+        email: 'martin@gmail.com',
+        mensaje: 'como anda todo?'
+    },
+    {
+        email: 'candela@gmail.com',
+        mensaje: 'que se cuenta?'
+    },
+    {
+        email: 'julian@gmail.com',
+        mensaje: 'no saben lo que me paso ayer'
+    },
+    {
+        email: 'mariana@gmail.com',
+        mensaje: 'uy no me digas que chocaste?'
+    },
+    {
+        email: 'karla@gmail.com',
+        mensaje: 'alguien sabe a que precio esta el dolar?'
+    },
+    {
+        email: 'ernesto@gmail.com',
+        mensaje: 'mañana recuerden que es feriado'
+    },
+    {
+        email: 'camila@gmail.com',
+        mensaje: 'espero que todos tengan un gran cierre de año'
+    },
+    {
+        email: 'lara@gmail.com',
+        mensaje: 'que aburrida es esta sala'
+    }
+])
+3)  db.productos.find()
+    db.mensajes.find()
+4)  db.productos.estimatedDocumentCount()
+    db.mensajes.estimatedDocumentCount()
+5-a) db.productos.insertOne({nombre:'ciruela', precio:'200', imagen:'https://cdn3.iconfinder.com/data/icons/fruits-52/150/icon_fruit_ameixa-64.png'})
+5-b) i) db.productos.find({precio: {$lt: 1000}})
+     ii) db.productos.find({precio:{$gte: 1000, $lte: 3000}})
+     iii) db.productos.find({precio:{$gt: 3000}})
+     iV) db.productos.find().sort({precio: 1}).skip(2).limit(1)
+5-c) db.productos.updateMany({}, {$set: {stock: 100}})
+5-d) db.productos.updateOne({precio:{$gt: 4000}}, {$set: {stock: 0}})
+5-e) db.productos.deleteMany({precio: {$lt: 1000}})
+6)  -use admin
+    -db.createUser(
+        {user: "pepe", 
+        pwd: "123456", 
+        roles: [
+            {role: "read", db: "ecommerce"}
+            ]})
+    -En el server: mongod --dbpath "./miBaseMongo" --auth
+    -En el client: mongo -u pepe -p 123456
+
