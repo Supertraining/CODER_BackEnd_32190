@@ -10,6 +10,7 @@ const routerMongoDbProductos = require('./router/routerMongoProductos');
 const routerMongoDbCarritos = require('./router/routerMongoCarritos')
 const routerFirebaseDbProductos = require('./router/routerFirebaseProductos')
 const routerFirebaseDbCarritos = require('./router/routerFirebaseCarritos')
+const routerMySqlDbProdutos = require('./router/routerMySqlProductos')
 
 app.use('/productos', routerProductos);
 
@@ -54,6 +55,12 @@ routerFirebaseDbProductos.post;
 routerFirebaseDbProductos.put;
 routerFirebaseDbProductos.delete;
 
+app.use('/MySqlDB/productos', routerMySqlDbProdutos);
+
+routerMySqlDbProdutos.get;
+routerMySqlDbProdutos.post;
+routerMySqlDbProdutos.put;
+routerMySqlDbProdutos.delete;
 
 const PORT = process.env.PORT || 8080;
 

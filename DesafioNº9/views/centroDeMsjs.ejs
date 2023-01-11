@@ -1,0 +1,55 @@
+<div class="row border border-dark">
+    <div class="bg-light w-100 text-primary" id="compresion"></div>
+    <form class="bg-dark rounded d-flex w-100"
+        onsubmit="return addMessage()">
+        <div class="p-3 my-3 w-50">
+            <input class="w-50 my-1"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Ingrese su e-mail"><br>
+            <input class="w-50 my-1"
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Nombre"><br>
+            <input class="w-50 my-1"
+                type="text"
+                name="apellido"
+                id="apellido"
+                placeholder="Apellido"><br>
+            <input class="w-50 my-1"
+                type="number"
+                name="edad"
+                id="edad"
+                placeholder="Edad"><br>
+            <input class="w-50 my-1"
+                type="text"
+                name="alias"
+                id="alias"
+                placeholder="Alias"><br>
+            <input class="w-50 my-1"
+                type="text"
+                name="avatar"
+                id="avatar"
+                placeholder="Avatar"><br>
+            <textarea class="w-50 my-1"
+                rows="5"
+                maxlength="200"
+                id="text"
+                placeholder="Tu mensaje..."></textarea><br>
+            <input type="submit"
+                value="Enviar Msj"
+                class="btn btn-light"
+                id="btnMssg">
+        </div>
+
+        <form />
+        <div class="w-50 bg-light overflow-auto my-2"
+            id="messages"
+            style="height: 500px;">
+        </div>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/normalizr@3.6.2/dist/normalizr.browser.min.js"></script> 
+<script src="./js/index.js"></script>
