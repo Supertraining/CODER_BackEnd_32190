@@ -3,9 +3,7 @@ const MongoProductsContainer = require('../api/MongoDB/mongoProductsDbContainer'
 const mongoDbProductContainer = new MongoProductsContainer(
 	'mongodb+srv://Matias:matias1422@myfirstcluster.lnamsiz.mongodb.net/ecommerce?retryWrites=true&w=majority'
 );
-const app = express();
 const router = express.Router();
-app.use('/api/MongoDB/productos', router);
 
 const admin = true;
 

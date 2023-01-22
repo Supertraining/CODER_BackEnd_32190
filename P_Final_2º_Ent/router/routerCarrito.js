@@ -1,9 +1,7 @@
 const express = require('express');
 const contenedorCarrito = require('../api/contenedorCarrito.js');
 
-const app = express();
 const router = express.Router();
-app.use('/api/carrito', router);
 
 router.get('/:id/productos', (req, res) => {
 	contenedorCarrito.getByCartId(+req.params.id).then((data) => res.json(data));

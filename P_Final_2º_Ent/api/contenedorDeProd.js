@@ -4,7 +4,7 @@ class ContenedorLocalProductos {
 	constructor(path) {
 		this.path = path;
 	}
-
+	
 	async save(obj) {
 		let newProducto = null;
 		let id = 0;

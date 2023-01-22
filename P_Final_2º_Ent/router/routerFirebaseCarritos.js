@@ -2,9 +2,7 @@ const express = require('express');
 const FirebaseCartsContainer = require('../api/Firebase/firebaseCartsContainer');
 const firebaseDbCartsContainer = new FirebaseCartsContainer();
 
-const app = express();
 const router = express.Router();
-app.use('/api/firebase/carritos', router);
 
 router.get('/:id/productos', (req, res) => {
 	firebaseDbCartsContainer.getByCartId(req.params.id).then((data) => res.json(data));

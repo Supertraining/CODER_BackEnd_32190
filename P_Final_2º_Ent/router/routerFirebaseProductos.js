@@ -4,7 +4,6 @@ const firebaseDbProductContainer = new FirebaseProductsContainer('../../firebase
 
 const app = express();
 const router = express.Router();
-app.use('/api/firebase/productos', router);
 
 const admin = true;
 

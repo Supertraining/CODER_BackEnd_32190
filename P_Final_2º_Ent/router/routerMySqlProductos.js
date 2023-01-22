@@ -3,9 +3,7 @@ const { options } = require('../options/mariaDB')
 const { ContenedorProductosSQL } = require('../api/MySql/contenedorProductosMySql');
 const MySqlDbProductContainer = new ContenedorProductosSQL(options, 'productos');
 
-const app = express();
 const router = express.Router();
-app.use('/api/MySqlDB/productos', router);
 
 const admin = true;
 

@@ -12,55 +12,20 @@ const routerFirebaseDbProductos = require('./router/routerFirebaseProductos')
 const routerFirebaseDbCarritos = require('./router/routerFirebaseCarritos')
 const routerMySqlDbProdutos = require('./router/routerMySqlProductos')
 
-app.use('/productos', routerProductos);
-
-routerProductos.get;
-routerProductos.post;
-routerProductos.put;
-routerProductos.delete;
+app.use('/api/productos', routerProductos);
 
 app.use('/carrito', routerCarrito);
 
-routerCarrito.get;
-routerCarrito.post;
-routerCarrito.put;
-routerCarrito.delete;
+app.use('/api/mongoDB/productos', routerMongoDbProductos);
 
-app.use('/mongoDB/productos', routerMongoDbProductos);
+app.use('/api/mongoDB/carritos', routerMongoDbCarritos);
 
-routerMongoDbProductos.get;
-routerMongoDbProductos.post;
-routerMongoDbProductos.put;
-routerMongoDbProductos.delete;
+app.use('/api/firebaseDB/productos', routerFirebaseDbProductos);
 
-app.use('/mongoDB/carritos', routerMongoDbCarritos);
-
-routerMongoDbCarritos.get;
-routerMongoDbCarritos.post;
-routerMongoDbCarritos.put;
-routerMongoDbCarritos.delete;
-
-app.use('/firebaseDB/productos', routerFirebaseDbProductos);
-
-routerFirebaseDbProductos.get;
-routerFirebaseDbProductos.post;
-routerFirebaseDbProductos.put;
-routerFirebaseDbProductos.delete;
-
-app.use('/firebaseDB/carritos', routerFirebaseDbCarritos
+app.use('/api/firebaseDB/carritos', routerFirebaseDbCarritos
 );
 
-routerFirebaseDbProductos.get;
-routerFirebaseDbProductos.post;
-routerFirebaseDbProductos.put;
-routerFirebaseDbProductos.delete;
-
-app.use('/MySqlDB/productos', routerMySqlDbProdutos);
-
-routerMySqlDbProdutos.get;
-routerMySqlDbProdutos.post;
-routerMySqlDbProdutos.put;
-routerMySqlDbProdutos.delete;
+app.use('/api/MySqlDB/productos', routerMySqlDbProdutos);
 
 const PORT = process.env.PORT || 8080;
 

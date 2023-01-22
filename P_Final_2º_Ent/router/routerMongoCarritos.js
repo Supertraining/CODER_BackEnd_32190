@@ -3,9 +3,7 @@ const MongoCartsContainer = require('../api/MongoDB/mongoCartsDbContainer');
 const mongoDbCartContainer = new MongoCartsContainer(
 	'mongodb+srv://Matias:matias1422@myfirstcluster.lnamsiz.mongodb.net/ecommerce?retryWrites=true&w=majority'
 );
-const app = express();
 const router = express.Router();
-app.use('/api/MongoDB/carritos', router);
 
 router.get('/:id/productos', (req, res) => {
 	mongoDbCartContainer.getByCartId(req.params.id).then((data) => res.json(data));
