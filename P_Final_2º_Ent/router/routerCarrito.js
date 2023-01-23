@@ -1,29 +1,12 @@
-const express = require('express');
-const contenedorCarrito = require('../api/contenedorCarrito.js');
+import { Router } from 'express';
+import { createCart, deleteCart, deleteProductFromCart, getCartsProducts, addProductToCart } from '../controllers/carritosLocal.js';
 
-const router = express.Router();
+const router = Router();
 
-router.get('/:id/productos', (req, res) => {
-	contenedorCarrito.getByCartId(+req.params.id).then((data) => res.json(data));
-});
-router.post('/', (req, res) => {
-	contenedorCarrito.createCart(req.body).then((data) => {
-		res.json(data);
-	});
-});
-router.post('/:idCarrito/productos/:idProducto/', (req, res) => {
-	contenedorCarrito
-		.addProduct(+req.params.idCarrito, +req.params.idProducto)
-		.then((data) => res.json(data));
-});
-router.delete('/:id', (req, res) => {
-	const id = +req.params.id;
-	contenedorCarrito.deleteCartById(id).then((data) => res.json(data));
-});
-router.delete('/:idCarrito/productos/:id_prod', (req, res) => {
-	contenedorCarrito
-		.deleteCartProductById(+req.params.idCarrito, +req.params.id_prod)
-		.then((data) => res.json(data));
-});
+router.get('/:id/productos', getCartsProducts);
+router.post('/', createCart);
+router.post('/:idCarrito/productos/:idProducto/', addProductToCart);
+router.delete('/:id', deleteCart);
+router.delete('/:idCarrito/productos/:id_prod', deleteProductFromCart);
 
-module.exports = router;
+export default router

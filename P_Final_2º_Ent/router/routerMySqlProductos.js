@@ -1,9 +1,9 @@
-const express = require('express');
-const { options } = require('../options/mariaDB')
-const { ContenedorProductosSQL } = require('../api/MySql/contenedorProductosMySql');
+import { Router } from 'express';
+import options from '../options/mariaDB.js';
+import ContenedorProductosSQL from '../api/MySql/contenedorProductosMySql.js';
 const MySqlDbProductContainer = new ContenedorProductosSQL(options, 'productos');
 
-const router = express.Router();
+const router = Router();
 
 const admin = true;
 
@@ -33,4 +33,4 @@ router.delete('/:id', isAuthorized, (req, res) => {
     MySqlDbProductContainer.close();
 });
 
-module.exports = router;
+export default router;

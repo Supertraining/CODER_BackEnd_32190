@@ -1,9 +1,9 @@
-const express = require('express');
-const MongoProductsContainer = require('../api/MongoDB/mongoProductsDbContainer');
+import { Router } from 'express';
+import MongoProductsContainer from '../api/MongoDB/mongoProductsDbContainer.js';
 const mongoDbProductContainer = new MongoProductsContainer(
 	'mongodb+srv://Matias:matias1422@myfirstcluster.lnamsiz.mongodb.net/ecommerce?retryWrites=true&w=majority'
 );
-const router = express.Router();
+const router = Router();
 
 const admin = true;
 
@@ -31,4 +31,4 @@ router.delete('/:id', isAuthorized, (req, res) => {
 	mongoDbProductContainer.deleteById(req.params.id).then((data) => res.json(data));
 });
 
-module.exports = router;
+export default router;

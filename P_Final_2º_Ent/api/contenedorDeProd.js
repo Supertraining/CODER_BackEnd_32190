@@ -1,4 +1,4 @@
-const fs = require('fs');
+import * as fs from 'fs';
 
 class ContenedorLocalProductos {
 	constructor(path) {
@@ -10,14 +10,20 @@ class ContenedorLocalProductos {
 		let id = 0;
 		let data = await this.getAll();
 		let newData = JSON.parse(data);
-		if (newData.length === 0) {
+		if (newData.length == 0) {
 			id = 1;
-			await fs.promises.writeFile(
+			try {
+				await fs.promises.writeFile(
 				`${this.path}`,
 				JSON.stringify([{ ...obj, id: id, timestamp: Date.now() }])
 			);
-			return id;
-		} else {
+				return id;
+			} catch (err) {
+				return ('Ocurrio un error' + err);
+			}
+			
+		} 
+		else {
 			newProducto = JSON.parse(data);
 			id = newProducto[newProducto.length - 1].id + 1;
 			newProducto.push({ ...obj, timestamp: Date.now(), id: id });
@@ -66,7 +72,7 @@ class ContenedorLocalProductos {
 		let data = null;
 		try {
 			data = await fs.promises.readFile(`${this.path}`, 'utf-8');
-			return data;
+			return JSON.parse(data) 
 		} catch (err) {
 			return (data = []);
 		}
@@ -89,4 +95,4 @@ class ContenedorLocalProductos {
 	}
 }
 
-module.exports = ContenedorLocalProductos;
+export default ContenedorLocalProductos;

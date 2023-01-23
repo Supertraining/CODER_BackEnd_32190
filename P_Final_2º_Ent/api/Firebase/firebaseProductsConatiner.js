@@ -1,4 +1,4 @@
-const db = require('./firebaseInit')
+import db from "./firebaseInit.js";
 
 class FirebaseProductsContainer {
 	constructor() {
@@ -84,4 +84,4 @@ class FirebaseProductsContainer {
 	}
 }
 
-module.exports = FirebaseProductsContainer;
+export default FirebaseProductsContainer;

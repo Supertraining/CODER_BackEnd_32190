@@ -1,6 +1,6 @@
-const mongoose = require('mongoose');
-const Cartmodel = require('../../models/carts');
-const Productmodel = require('../../models/product');
+import mongoose from 'mongoose';
+import Cartmodel from '../../models/carts.js';
+import Productmodel from '../../models/product.js';
 
 class MongoCartContainer {
 	constructor(url) {
@@ -119,4 +119,4 @@ class MongoCartContainer {
 	}
 }
 
-module.exports = MongoCartContainer;
+export default MongoCartContainer;

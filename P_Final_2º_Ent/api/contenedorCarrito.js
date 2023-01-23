@@ -1,4 +1,4 @@
-const fs = require('fs');
+import fs from 'fs';
 
 class ContenedorLocalCarritos {
 	constructor(path) {
@@ -138,4 +138,4 @@ class ContenedorLocalCarritos {
 	}
 }
 
-module.exports = ContenedorLocalCarritos;
+export default ContenedorLocalCarritos 

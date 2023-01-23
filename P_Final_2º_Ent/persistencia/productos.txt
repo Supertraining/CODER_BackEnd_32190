@@ -1,1 +1,1 @@
-[]
+[{"nombre":"ciruelas","descripcion":"Refrescante","codigo":3920,"foto":"anana.png","precio":300,"stock":2500,"id":1,"timestamp":1674486480216},{"nombre":"lapices","descripcion":"20 cm","codigo":565,"foto":"lapiz.png","precio":5.5,"stock":1500,"timestamp":1674486045058,"id":2}]

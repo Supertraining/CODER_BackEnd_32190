@@ -1,30 +1,13 @@
-const express = require('express');
-const FirebaseCartsContainer = require('../api/Firebase/firebaseCartsContainer');
-const firebaseDbCartsContainer = new FirebaseCartsContainer();
+import { Router } from 'express';
+import { createCart, getCartProducts, addProductToCart, deleteProductFromCart, deleteCart } from '../controllers/carritosFirebase.js';
 
-const router = express.Router();
 
-router.get('/:id/productos', (req, res) => {
-	firebaseDbCartsContainer.getByCartId(req.params.id).then((data) => res.json(data));
-});
-router.post('/', (req, res) => {
-	firebaseDbCartsContainer.createCart(req.body).then((data) => {
-		res.json(data);
-	});
-});
-router.post('/:idCarrito/productos/:idProducto/', (req, res) => {
-	firebaseDbCartsContainer
-		.addProduct(req.params.idCarrito, req.params.idProducto)
-		.then((data) => res.json(data));
-});
-router.delete('/:id', (req, res) => {
-	const id = req.params.id;
-	firebaseDbCartsContainer.deleteCartById(id).then((data) => res.json(data));
-});
-router.delete('/:idCarrito/productos/:id_prod', (req, res) => {
-	firebaseDbCartsContainer
-		.deleteCartProductById(req.params.idCarrito, req.params.id_prod)
-		.then((data) => res.json(data));
-});
+const router = Router();
 
-module.exports = router;
+router.get('/:id/productos', getCartProducts);
+router.post('/', createCart);
+router.post('/:idCarrito/productos/:idProducto/', addProductToCart);
+router.delete('/:id', deleteCart);
+router.delete('/:idCarrito/productos/:id_prod', deleteProductFromCart);
+
+export default router;

@@ -1,0 +1,1 @@
+[{"id":1,"timestamp":1674486582121,"productos":[{"nombre":"ciruelas","descripcion":"Refrescante","codigo":3920,"foto":"anana.png","precio":300,"stock":2500,"id":1,"timestamp":1674486480216}]}]

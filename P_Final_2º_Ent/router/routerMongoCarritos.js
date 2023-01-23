@@ -1,9 +1,9 @@
-const express = require('express');
-const MongoCartsContainer = require('../api/MongoDB/mongoCartsDbContainer');
+import { Router } from 'express';
+import MongoCartsContainer from '../api/MongoDB/mongoCartsDbContainer.js';
 const mongoDbCartContainer = new MongoCartsContainer(
 	'mongodb+srv://Matias:matias1422@myfirstcluster.lnamsiz.mongodb.net/ecommerce?retryWrites=true&w=majority'
 );
-const router = express.Router();
+const router = Router();
 
 router.get('/:id/productos', (req, res) => {
 	mongoDbCartContainer.getByCartId(req.params.id).then((data) => res.json(data));
@@ -28,4 +28,4 @@ router.delete('/:idCarrito/productos/:id_prod', (req, res) => {
 		.then((data) => res.json(data));
 });
 
-module.exports = router;
+export default router;

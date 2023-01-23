@@ -1,4 +1,4 @@
-const MongoProductsContainer = require('./api/MongoDB/mongoProductsDbContainer');
+import MongoProductsContainer from './api/MongoDB/mongoProductsDbContainer';
 const mongoDbProductContainer = new MongoProductsContainer(
 	'mongodb+srv://Matias:matias1422@myfirstcluster.lnamsiz.mongodb.net/ecommerce?retryWrites=true&w=majority'
 );
@@ -23,7 +23,7 @@ const mongoDbProductContainer = new MongoProductsContainer(
 // .then(data => console.log(data));
 
 
-const MongoCartsContainer = require('./api/MongoDB/mongoCartsDbContainer');
+import MongoCartsContainer from './api/MongoDB/mongoCartsDbContainer';
 const mongoDbCartContainer = new MongoCartsContainer(
 	'mongodb+srv://Matias:matias1422@myfirstcluster.lnamsiz.mongodb.net/ecommerce?retryWrites=true&w=majority'
 );
@@ -39,7 +39,7 @@ const mongoDbCartContainer = new MongoCartsContainer(
 // .then(data => console.log(data));
 
 
-const FirebaseProductsContainer = require('./api/Firebase/firebaseProductsConatiner');
+import FirebaseProductsContainer from './api/Firebase/firebaseProductsConatiner';
 const firebaseDbProductContainer = new FirebaseProductsContainer('../../firebaseSDK/ecommerce-f9af1-firebase-adminsdk-y5slf-dd2c166874.json');
 // firebaseDbProductContainer.save()
 // .then(data => console.log(data));
@@ -53,7 +53,7 @@ const firebaseDbProductContainer = new FirebaseProductsContainer('../../firebase
 // .then(data => console.log(data));
 
 
-const FirebaseCartsContainer = require('./api/Firebase/firebaseCartsContainer');
+import FirebaseCartsContainer from './api/Firebase/firebaseCartsContainer';
 const firebaseDbCartsContainer = new FirebaseCartsContainer('../../firebaseSDK/ecommerce-f9af1-firebase-adminsdk-y5slf-dd2c166874.json');
 // firebaseDbCartsContainer.createCart()
 // .then(data => console.log(data));
@@ -67,7 +67,7 @@ const firebaseDbCartsContainer = new FirebaseCartsContainer('../../firebaseSDK/e
 // .then(data => console.log(data));
 
 
-const contenedorLocalCarritos = require('./api/contenedorCarrito.js');
+import contenedorLocalCarritos from './api/contenedorCarrito.js';
 const contenedorCarrito = new contenedorLocalCarritos('./persistencia/carritos.txt')
 
 // contenedorCarrito.createCart()
@@ -81,7 +81,7 @@ const contenedorCarrito = new contenedorLocalCarritos('./persistencia/carritos.t
 // contenedorCarrito.deleteCartById(1)
 // .then(data => console.log(data))
 
-const contenedorLocalProductos = require('./api/contenedorDeProd.js');
+import contenedorLocalProductos from './api/contenedorDeProd.js';
 const contenedorProductos = new contenedorLocalProductos('./persistencia/productos.txt')
 
 // contenedorProductos.save({nombre: "prueba"})
