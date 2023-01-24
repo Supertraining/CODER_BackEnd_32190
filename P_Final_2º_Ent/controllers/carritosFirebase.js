@@ -10,16 +10,17 @@ export const createCart = async (req, res) => {
 		res.json(data);
 };
 export const addProductToCart = async (req, res) => {
-    firebaseDbCartsContainer
+    let data = await firebaseDbCartsContainer
 		.addProduct(req.params.idCarrito, req.params.idProducto)
-		.then((data) => res.json(data));
+		res.json(data);
 };
 export const deleteCart = async (req, res) => {
     const id = req.params.id;
-	firebaseDbCartsContainer.deleteCartById(id).then((data) => res.json(data));
+	let data = await firebaseDbCartsContainer.deleteCartById(id)
+	res.json(data);
 };
 export const deleteProductFromCart = async (req, res) => {
-    firebaseDbCartsContainer
+	let data = await firebaseDbCartsContainer
 		.deleteCartProductById(req.params.idCarrito, req.params.id_prod)
-		.then((data) => res.json(data));
+		res.json(data);
 };

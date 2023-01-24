@@ -1,7 +1,5 @@
 import { Router } from 'express';
-import options from '../options/mariaDB.js';
-import ContenedorProductosSQL from '../api/MySql/contenedorProductosMySql.js';
-const MySqlDbProductContainer = new ContenedorProductosSQL(options, 'productos');
+import { createProduct, deleteProduct, getProducts, updateProduct } from '../controllers/productosMySql';
 
 const router = Router();
 
@@ -13,24 +11,9 @@ const isAuthorized = (req, res, next) => {
 		: next();
 };
 
-router.get('/:id?', (req, res) => {
-	!req.params.id 
-	?MySqlDbProductContainer.getAll().then(data => res.send(data))
-	:MySqlDbProductContainer.getById(req.params.id).then(data => res.json(data));
-    MySqlDbProductContainer.close();
-	});
-router.post('/', isAuthorized, (req, res) => {
-	MySqlDbProductContainer.save(req.body).then(data => res.json(data))
-    MySqlDbProductContainer.close();
-});
-router.put('/:id', isAuthorized, (req, res) => {
-	MySqlDbProductContainer.updateProduct(req.params.id , req.body).then((data) => res.json(data));
-    MySqlDbProductContainer.close();
-});
-
-router.delete('/:id', isAuthorized, (req, res) => {
-	MySqlDbProductContainer.delete(req.params.id).then((data) => res.json(data));
-    MySqlDbProductContainer.close();
-});
+router.get('/:id?', getProducts);
+router.post('/', isAuthorized, createProduct );
+router.put('/:id', isAuthorized, updateProduct);
+router.delete('/:id', isAuthorized, deleteProduct);
 
 export default router;
