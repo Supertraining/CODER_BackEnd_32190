@@ -11,7 +11,7 @@ forkRouter.get('/api/randoms', (req, res) => {
     calculo.on('message', result => {
         
         if (result == 'listo') {
-            calculo.send(!req.query.cant? false : req.query.cant)
+            calculo.send(!req.query?.cant || 100000000)
         } else {
             res.json(result)
         }

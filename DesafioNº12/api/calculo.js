@@ -1,6 +1,5 @@
-function calculo(data) {
-	let cantidad = 0;
-	!data ? (cantidad = 100000000) : (cantidad = data);
+function calculo(cantidad) {
+	
 	const hash = {};
 	for (let i = 0; i <= cantidad; i++) {
 		const val = Math.ceil(Math.random() * 1000);
