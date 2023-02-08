@@ -10,7 +10,7 @@
 
 
 pm2 start server.js --name serverModoFork --watch
-pm2 start server.js --name serverModoCluster -i max --watch --8082
+pm2 start server.js --watch -i max -- --puerto 8081
 pm2 list (procesos por pm2)
 tasklist /fi "imagename eq node.exe" (procesos en el cmd)
 
