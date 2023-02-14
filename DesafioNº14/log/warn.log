@@ -1,0 +1,80 @@
+{
+  message: 'Ruta GET /json/version no esta implementada',
+  level: 'warn',
+  timestamp: '2023-02-14T13:22:56.367Z'
+}
+{
+  message: 'Ruta GET /json no esta implementada',
+  level: 'warn',
+  timestamp: '2023-02-14T13:22:56.375Z'
+}
+{
+  message: 'Ruta GET /json/version no esta implementada',
+  level: 'warn',
+  timestamp: '2023-02-14T13:23:03.997Z'
+}
+{
+  message: 'Ruta GET /json no esta implementada',
+  level: 'warn',
+  timestamp: '2023-02-14T13:23:04.003Z'
+}
+{
+  message: 'Ruta GET /json/version no esta implementada',
+  level: 'warn',
+  timestamp: '2023-02-14T13:23:15.216Z'
+}
+{
+  message: 'Ruta GET /json no esta implementada',
+  level: 'warn',
+  timestamp: '2023-02-14T13:23:15.222Z'
+}
+{
+  message: 'Ruta GET /json/version no esta implementada',
+  level: 'warn',
+  timestamp: '2023-02-14T13:23:26.422Z'
+}
+{
+  message: 'Ruta GET /json no esta implementada',
+  level: 'warn',
+  timestamp: '2023-02-14T13:23:26.428Z'
+}
+{
+  message: 'Ruta GET /json/version no esta implementada',
+  level: 'warn',
+  timestamp: '2023-02-14T13:23:37.628Z'
+}
+{
+  message: 'Ruta GET /json no esta implementada',
+  level: 'warn',
+  timestamp: '2023-02-14T13:23:37.634Z'
+}
+{
+  message: 'Ruta GET /json/version no esta implementada',
+  level: 'warn',
+  timestamp: '2023-02-14T13:23:48.841Z'
+}
+{
+  message: 'Ruta GET /json no esta implementada',
+  level: 'warn',
+  timestamp: '2023-02-14T13:23:48.847Z'
+}
+{
+  message: 'Ruta GET /json/version no esta implementada',
+  level: 'warn',
+  timestamp: '2023-02-14T13:24:00.051Z'
+}
+{
+  message: 'Ruta GET /json no esta implementada',
+  level: 'warn',
+  timestamp: '2023-02-14T13:24:00.056Z'
+}
+{
+  message: 'Ruta GET /json/version no esta implementada',
+  level: 'warn',
+  timestamp: '2023-02-14T13:24:11.268Z'
+}
+{
+  message: 'Ruta GET /json no esta implementada',
+  level: 'warn',
+  timestamp: '2023-02-14T13:24:11.274Z'
+}

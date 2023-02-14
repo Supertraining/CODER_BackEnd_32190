@@ -1,0 +1,156 @@
+Statistical profiling result from nobloq-v8.log, (1059 ticks, 0 unaccounted, 0 excluded).
+
+ [Shared libraries]:
+   ticks  total  nonlib   name
+    912   86.1%          C:\WINDOWS\SYSTEM32\ntdll.dll
+    143   13.5%          C:\Program Files\nodejs\node.exe
+
+ [JavaScript]:
+   ticks  total  nonlib   name
+      1    0.1%   25.0%  LazyCompile: *resolve node:path:158:10
+      1    0.1%   25.0%  LazyCompile: *isPathSeparator node:path:52:25
+      1    0.1%   25.0%  Function: ^push node:internal/fixed_queue:99:7
+      1    0.1%   25.0%  Function: ^Module node:internal/modules/cjs/loader:206:16
+
+ [C++]:
+   ticks  total  nonlib   name
+
+ [Summary]:
+   ticks  total  nonlib   name
+      4    0.4%  100.0%  JavaScript
+      0    0.0%    0.0%  C++
+      8    0.8%  200.0%  GC
+   1055   99.6%          Shared libraries
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+    912   86.1%  C:\WINDOWS\SYSTEM32\ntdll.dll
+     14    1.5%    C:\Program Files\nodejs\node.exe
+      2   14.3%      C:\Program Files\nodejs\node.exe
+      1   50.0%        LazyCompile: ~populateMaps C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\mime-types\index.js:154:23
+      1  100.0%          Function: ~<anonymous> C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\mime-types\index.js:1:1
+      1  100.0%            Function: ^Module._compile node:internal/modules/cjs/loader:1181:37
+      1   50.0%        LazyCompile: ~containsNamespace C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\depd\index.js:29:28
+      1  100.0%          LazyCompile: ~istraced C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\depd\index.js:169:19
+      1  100.0%            LazyCompile: ~depd C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\depd\index.js:103:15
+      1    7.1%      LazyCompile: ~resolve node:path:158:10
+      1  100.0%        LazyCompile: *toNamespacedPath node:path:618:19
+      1  100.0%          LazyCompile: ~existsSync node:fs:300:20
+      1  100.0%            LazyCompile: ~_createLogDirIfNotExist C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\winston\lib\winston\transports\file.js:688:26
+      1    7.1%      LazyCompile: ~patchProcessObject node:internal/process/pre_execution:134:28
+      1  100.0%        LazyCompile: ~prepareExecution node:internal/process/pre_execution:51:26
+      1  100.0%          LazyCompile: ~prepareMainThreadExecution node:internal/process/pre_execution:35:36
+      1  100.0%            Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      1    7.1%      LazyCompile: ~listOnTimeout node:internal/timers:517:25
+      1  100.0%        Function: ^processTimers node:internal/timers:497:25
+      1    7.1%      LazyCompile: ~etag C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\etag\index.js:70:15
+      1  100.0%        LazyCompile: ~generateETag C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\express\lib\utils.js:273:32
+      1  100.0%          LazyCompile: ~send C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\express\lib\response.js:111:25
+      1  100.0%            LazyCompile: ~json C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\express\lib\response.js:250:25
+      1    7.1%      LazyCompile: ~de file:///C:/Users/Camila%20Capornio/Desktop/DesafioN%C2%BA14/node_modules/@faker-js/faker/dist/esm/chunk-G6GIS7LZ.mjs:12:15055
+      1  100.0%        Script: ~<anonymous> file:///C:/Users/Camila%20Capornio/Desktop/DesafioN%C2%BA14/node_modules/@faker-js/faker/dist/esm/index.mjs:1:1
+      1  100.0%          C:\Program Files\nodejs\node.exe
+      1  100.0%            C:\Program Files\nodejs\node.exe
+      1    7.1%      LazyCompile: ~createAndConnectServer C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\mongodb\lib\sdam\topology.js:474:32
+      1  100.0%        LazyCompile: ~<anonymous> C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\mongodb\lib\sdam\topology.js:173:57
+      1  100.0%          C:\Program Files\nodejs\node.exe
+      1  100.0%            LazyCompile: ~connect C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\mongodb\lib\sdam\topology.js:154:12
+      1    7.1%      LazyCompile: ~compile C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\mongoose\lib\model.js:5067:33
+      1  100.0%        LazyCompile: ~Mongoose._model C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\mongoose\lib\index.js:609:37
+      1  100.0%          LazyCompile: ~Mongoose.model C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\mongoose\lib\index.js:538:36
+      1  100.0%            Script: ~<anonymous> file:///C:/Users/Camila%20Capornio/Desktop/DesafioN%C2%BA14/models/user.js:1:1
+      1    7.1%      LazyCompile: ~Transform._read C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:171:38
+      1  100.0%        LazyCompile: ~Transform._write C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:156:39
+      1  100.0%          LazyCompile: ~doWrite C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:404:17
+      1  100.0%            LazyCompile: ~writeOrBuffer C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:363:23
+      1    7.1%      LazyCompile: ~ServerSession C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\mongodb\lib\sessions.js:537:16
+      1  100.0%        LazyCompile: ~acquire C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\mongodb\lib\sessions.js:593:12
+      1  100.0%          LazyCompile: ~get serverSession C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\mongodb\lib\sessions.js:86:22
+      1  100.0%            LazyCompile: ~applySession C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\mongodb\lib\sessions.js:649:22
+      1    7.1%      LazyCompile: ~MessageStream C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\mongodb\lib\cmap\message_stream.js:21:16
+      1  100.0%        LazyCompile: ~Connection C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\mongodb\lib\cmap\connection.js:38:16
+      1  100.0%          LazyCompile: ~<anonymous> C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\mongodb\lib\cmap\connect.js:31:63
+      1  100.0%            LazyCompile: ~callback C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\mongodb\lib\cmap\connect.js:269:31
+      1    7.1%      LazyCompile: ~Long.compare C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\bson\lib\long.js:291:39
+      1  100.0%        Function: ^Long.comp C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\bson\lib\long.js:311:36
+      1  100.0%          LazyCompile: ~Long.lessThanOrEqual C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\bson\lib\long.js:517:47
+      1  100.0%            Function: ^deserializeObject C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\bson\lib\parser\deserializer.js:65:27
+      1    7.1%      LazyCompile: ~<anonymous> node:_tls_common:138:34
+      1  100.0%        C:\Program Files\nodejs\node.exe
+      1  100.0%          Function: ^translatePeerCertificate node:_tls_common:125:34
+      1  100.0%            LazyCompile: ~TLSSocket.getPeerCertificate node:_tls_wrap:999:50
+
+    143   13.5%  C:\Program Files\nodejs\node.exe
+    116   81.1%    C:\Program Files\nodejs\node.exe
+     37   31.9%      Function: ^internalCompileFunction node:internal/vm:31:33
+     36   97.3%        Function: ^wrapSafe node:internal/modules/cjs/loader:1125:18
+     36  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1181:37
+     34   94.4%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1235:37
+      2    5.6%            LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1235:37
+      1    2.7%        LazyCompile: ~wrapSafe node:internal/modules/cjs/loader:1125:18
+      1  100.0%          LazyCompile: ~Module._compile node:internal/modules/cjs/loader:1181:37
+      1  100.0%            LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1235:37
+     15   12.9%      Function: ^moduleStrategy node:internal/modules/esm/translators:114:56
+     15  100.0%        Function: ^moduleProvider node:internal/modules/esm/loader:452:28
+     15  100.0%          C:\Program Files\nodejs\node.exe
+      6    5.2%      Function: ^openSync node:fs:591:18
+      6  100.0%        Function: ^readFileSync node:fs:465:22
+      6  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1235:37
+      5   83.3%            Function: ^Module.load node:internal/modules/cjs/loader:1077:33
+      1   16.7%            LazyCompile: *Module._load node:internal/modules/cjs/loader:859:24
+      5    4.3%      Function: ^stat node:internal/modules/cjs/loader:161:14
+      3   60.0%        Function: ^tryFile node:internal/modules/cjs/loader:440:17
+      3  100.0%          Function: ^tryExtensions node:internal/modules/cjs/loader:456:23
+      3  100.0%            Function: ^Module._findPath node:internal/modules/cjs/loader:555:28
+      2   40.0%        Function: ^Module._findPath node:internal/modules/cjs/loader:555:28
+      2  100.0%          Function: ^Module._resolveFilename node:internal/modules/cjs/loader:956:35
+      2  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:859:24
+      4    3.4%      LazyCompile: ~configSecureContext node:internal/tls/secure-context:124:29
+      4  100.0%        LazyCompile: ~createSecureContext node:_tls_common:99:29
+      4  100.0%          LazyCompile: ~connect node:_tls_wrap:1607:35
+      4  100.0%            LazyCompile: ~makeConnection C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\mongodb\lib\cmap\connect.js:256:24
+      4    3.4%      Function: ^compileForInternalLoader node:internal/bootstrap/loaders:319:27
+      3   75.0%        Function: ^requireBuiltin node:internal/bootstrap/loaders:356:24
+      1   33.3%          Function: ~<anonymous> node:tls:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:319:27
+      1   33.3%          Function: ~<anonymous> node:internal/child_process:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:319:27
+      1   33.3%          Function: ~<anonymous> node:http:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:319:27
+      1   25.0%        Function: ^compileForPublicLoader node:internal/bootstrap/loaders:264:25
+      1  100.0%          Function: ^loadBuiltinModule node:internal/modules/cjs/helpers:45:27
+      1  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:859:24
+      3    2.6%      Function: ^realpathSync node:fs:2474:22
+      2   66.7%        Function: ^toRealPath node:internal/modules/cjs/loader:449:20
+      2  100.0%          Function: ^tryFile node:internal/modules/cjs/loader:440:17
+      1   50.0%            Function: ^tryPackage node:internal/modules/cjs/loader:394:20
+      1   50.0%            Function: ^tryExtensions node:internal/modules/cjs/loader:456:23
+      1   33.3%        Function: ^finalizeResolution node:internal/modules/esm/resolve:290:28
+      1  100.0%          Function: ^moduleResolve node:internal/modules/esm/resolve:923:23
+      1  100.0%            Function: ^defaultResolve node:internal/modules/esm/resolve:1063:30
+      2    1.7%      LazyCompile: ~pbkdf2Sync node:internal/crypto/pbkdf2:68:20
+      2  100.0%        LazyCompile: ~HI C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\mongodb\lib\cmap\auth\scram.js:238:12
+      2  100.0%          LazyCompile: ~continueScramConversation C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\mongodb\lib\cmap\auth\scram.js:93:35
+      2  100.0%            LazyCompile: ~<anonymous> C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\mongodb\lib\cmap\auth\scram.js:85:80
+      2    1.7%      LazyCompile: ~SecureContext node:_tls_common:75:23
+      1   50.0%        LazyCompile: ~createSecureContext node:_tls_common:99:29
+      1  100.0%          LazyCompile: ~connect node:_tls_wrap:1607:35
+      1  100.0%            LazyCompile: ~makeConnection C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\mongodb\lib\cmap\connect.js:256:24
+      1   50.0%        Function: ^createSecureContext node:_tls_common:99:29
+      1  100.0%          Function: ^connect node:_tls_wrap:1607:35
+      1  100.0%            LazyCompile: ~makeConnection C:\Users\Camila Capornio\Desktop\DesafioNº14\node_modules\mongodb\lib\cmap\connect.js:256:24
+      2    1.7%      Function: ^requireBuiltin node:internal/bootstrap/loaders:356:24
+      1   50.0%        Function: ~<anonymous> node:internal/process/esm_loader:1:1
+      1  100.0%          Function: ^requireBuiltin node:internal/bootstrap/loaders:356:24
+      1  100.0%            Function: ~<anonymous> node:internal/modules/cjs/loader:1:1
+      1   50.0%        Function: ~<anonymous> node:internal/modules/esm/load:1:1
+      1  100.0%          Function: ^requireBuiltin node:internal/bootstrap/loaders:356:24
+      1  100.0%            Function: ~<anonymous> node:internal/modules/esm/loader:1:1
+
