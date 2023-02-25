@@ -9,7 +9,7 @@ class FirebaseProductsContainer {
 		let data = null;
 		let dataC = null;
 		try {
-			data = await this.this.queryProductsProducts.doc(id).get();
+			data = await this.queryProductsProducts.doc(id).get();
 			dataC = data.data();
 			dataC = { id: data.id, ...dataC };
 		} catch (err) {
