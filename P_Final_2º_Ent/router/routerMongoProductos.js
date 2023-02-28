@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { createProduct, deleteProduct, getProducts, updateProduct } from '../controllers/productosMongo.js';
+import { createProduct, deleteProduct, getProducts, isAuthorized, updateProduct } from '../controllers/productosMongo.js';
 
 const router = Router();
 

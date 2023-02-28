@@ -23,8 +23,8 @@ export const updateProduct  = async (req, res) => {
     res.json(data);
 }
 
-export const deleteProduct = (req, res) => {
+export const deleteProduct = async (req, res) => {
     let data = await MySqlDbProductContainer.delete(req.params.id)
     MySqlDbProductContainer.close();
     res.json(data);
-}
+} 

@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { createProduct, deleteProduct, getProducts, updateProduct } from '../controllers/productosMySql';
+import { createProduct, deleteProduct, getProducts, updateProduct } from '../controllers/productosMySql.js';
 
 const router = Router();
 
