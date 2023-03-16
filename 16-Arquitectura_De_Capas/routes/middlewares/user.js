@@ -2,6 +2,9 @@ import passport from 'passport';
 import { Strategy as LocalStrategy } from 'passport-local';
 import { routeLogger } from '../../Logger/Logger.js';
 import { authUser, nuevoUsuario, obtenerUsuario } from '../../services/user.js';
+import { userSerialDeserial } from '../../controllers/user.js';
+
+userSerialDeserial();
 
 export const passportRegister = async (req, res, next) => {
 	try {

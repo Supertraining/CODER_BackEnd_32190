@@ -7,8 +7,9 @@ export const getFakerProducts = async (req, res,) => {
         let fproducts = await saveFakerProducts();
         console.log(fproducts);
 		res.render('fakeproducts', { fproducts: fproducts });
+		routeLogger(req, 'info')
 	} catch (error) {
 		logger.error(error)
 	}
-	routeLogger(req, 'info')
+	
 };

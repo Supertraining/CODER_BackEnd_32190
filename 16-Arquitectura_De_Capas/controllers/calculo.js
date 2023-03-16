@@ -1,6 +1,6 @@
 import { fork } from 'child_process'
 import path from 'path'
-import logger from '../logger/logger.js'
+import logger, { routeLogger } from '../logger/logger.js'
 
 
 export const calcular = async (req, res) => {
@@ -15,6 +15,7 @@ export const calcular = async (req, res) => {
                 res.json(result)
             }
         })
+        routeLogger(req, 'info')
     } catch (error) {
         logger.error(error)
     }

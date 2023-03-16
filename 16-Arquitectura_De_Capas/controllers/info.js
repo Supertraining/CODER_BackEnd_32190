@@ -1,6 +1,5 @@
 import { routeLogger } from '../logger/logger.js';
-import os from 'os';
-const numCPUs = os.cpus().length;
+import { numCPUs } from '../config/config.js';
 
 export const info = async (req, res) => {
     try {

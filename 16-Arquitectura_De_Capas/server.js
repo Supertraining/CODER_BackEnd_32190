@@ -9,13 +9,13 @@ import calculoRouter from './routes/calculo.js';
 import fakerRouter from './routes/faker.js'
 import infoRouter from './routes/info.js';
 import * as ProductControllers from './controllers/products.js';
-import * as messageControllers from './controllers/messages.js';
+import { sockets } from './controllers/sockets.js';
 import cluster from 'cluster';
-import logger, { routeLogger }  from './Logger/Logger.js';
-import parseArgs from 'minimist';
-import { minimistConfig, mongoURL, sessionConfig } from './config/config.js';
+import logger, { routeLogger } from './Logger/Logger.js';
+import * as config from './config/config.js';
+import noRouteRouter from './routes/non-ExistentRoutes.js';
 
-dbConnection(mongoURL)
+dbConnection(config.mongoURL);
 
 const app = express();
 const httpServer = http.createServer(app);
@@ -23,7 +23,7 @@ const io = new Server(httpServer);
 export default io;
 
 app.use(
-	session(sessionConfig)
+	session(config.sessionConfig)
 );
 
 app.use(passport.initialize());
@@ -33,46 +33,17 @@ app.set('view engine', 'ejs');
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use('/api/',calculoRouter);
+app.use('/api/', calculoRouter);
 app.use(userRouter);
 app.use('/api/', infoRouter)
 app.use('/api/', fakerRouter);
+app.use(noRouteRouter)
 
-app.all('/*',  (req, res) => {
-    const { url, method } = req
-	routeLogger(req, 'warn');
-	res.send(`La ruta ${method} ${url} no esta implementada`)
-})
+io.on('connection', sockets)
 
-io.on('connection', async (Socket) => {
-	console.log('Nuevo usuario conectado');
-
-	let productos = await ProductControllers.getAllProducts();
-	
-	Socket.emit('productos', productos);
-
-	Socket.on('new-product', ProductControllers.saveProduct);
-
-	Socket.on('deleteProduct', ProductControllers.deleteProductById);
-
-	Socket.on('updatedProduct', ProductControllers.updateByProduct);
-
-	Socket.on('selectedProduct', ProductControllers.getProductByID);
-
-	Socket.on('new-message', messageControllers.newMessages);
-
-	let messages = await messageControllers.getAllMessages();
-	
-	Socket.emit('normalizedMessages', messages);
-});
-
-
-const { puerto } = parseArgs(process.argv.slice(2), minimistConfig);
-const { modo } = parseArgs(process.argv.slice(3), minimistConfig);
-
-if (cluster.isMaster && modo === 'CLUSTER') {
+if (cluster.isMaster && config.modo === 'CLUSTER') {
 	console.log(`Primary Process PID ${process.pid}`);
-	for (let i = 0; i < numCPUs; i++) {
+	for (let i = 0; i < config.numCPUs; i++) {
 		cluster.fork();
 	}
 	cluster.on('exit', (worker) => {
@@ -80,7 +51,7 @@ if (cluster.isMaster && modo === 'CLUSTER') {
 		cluster.fork();
 	});
 } else {
-	const PORT = puerto;
+	const PORT = config.puerto;
 	httpServer.listen(PORT, () => {
 		logger.info(`Server on at ${PORT} - PID: ${process.pid} - ${new Date().toLocaleString()}`);
 	});

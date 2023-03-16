@@ -1,8 +1,10 @@
 import mongoStore from 'connect-mongo';
 import dotenv from 'dotenv';
-dotenv.config({path: './config/.env'});
+dotenv.config({ path: './config/.env' });
+import parseArgs from 'minimist';
+import os from 'os';
 
-
+export const numCPUs = os.cpus().length;
 
 const advancedOptions = { useNewUrlParser: true, useUnifiedTopology: true };
 
@@ -40,3 +42,6 @@ export const minimistConfig = {
 		modo: 'FORK',
 	},
 };
+
+export const { puerto } = parseArgs(process.argv.slice(2), minimistConfig);
+export const { modo } = parseArgs(process.argv.slice(3), minimistConfig);

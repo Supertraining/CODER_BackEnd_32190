@@ -48,3 +48,123 @@
   level: 'error',
   timestamp: '2023-03-10T16:02:11.628Z'
 }
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-16T13:49:12.060Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-16T13:49:31.075Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-16T13:52:03.264Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-16T13:52:19.637Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-16T14:21:54.905Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-16T14:22:45.788Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-16T14:23:26.260Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-16T14:32:21.663Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-16T14:38:01.999Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-16T14:38:03.352Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-16T14:38:04.604Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-16T14:45:12.265Z'
+}
