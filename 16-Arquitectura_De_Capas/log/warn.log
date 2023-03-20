@@ -103,3 +103,18 @@
   level: 'warn',
   timestamp: '2023-03-16T19:48:50.972Z'
 }
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T21:58:27.967Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T21:58:31.865Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T21:58:36.299Z'
+}

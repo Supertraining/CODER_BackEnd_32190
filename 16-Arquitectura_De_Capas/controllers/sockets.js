@@ -89,6 +89,6 @@ export const sockets = async (Socket) => {
 	Socket.on('new-message', newMessages);
 
 	let messages = await getAllMessages();
-
+	console.log(messages)
 	Socket.emit('normalizedMessages', messages);
 }

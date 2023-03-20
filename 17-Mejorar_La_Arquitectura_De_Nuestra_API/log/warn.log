@@ -1,0 +1,1345 @@
+{
+  message: 'Ruta GET /favicon.ico no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-10T14:35:51.600Z'
+}
+{
+  message: 'Ruta GET /favicon.ico no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-10T14:36:08.873Z'
+}
+{
+  message: 'Ruta GET /favicon.ico no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-10T14:36:20.117Z'
+}
+{
+  message: 'Ruta GET /favicon.ico no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-10T15:50:13.572Z'
+}
+{
+  message: 'Ruta GET /favicon.ico no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-10T15:50:54.573Z'
+}
+{
+  message: 'Ruta GET /favicon.ico no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-10T16:01:40.544Z'
+}
+{
+  message: 'Ruta GET /favicon.ico no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-10T16:01:42.097Z'
+}
+{
+  message: 'Ruta GET /favicon.ico no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-10T16:01:53.014Z'
+}
+{
+  message: 'Ruta GET /favicon.ico no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-10T16:01:59.052Z'
+}
+{
+  message: 'Ruta GET /favicon.ico no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-10T16:02:02.023Z'
+}
+{
+  message: 'Ruta GET /favicon.ico no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-10T16:02:11.818Z'
+}
+{
+  message: 'Ruta GET /favicon.ico no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-10T16:02:41.413Z'
+}
+{
+  message: 'Ruta GET /favicon.ico no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-10T16:02:44.044Z'
+}
+{
+  message: 'Ruta GET /favicon.ico no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-16T13:30:16.509Z'
+}
+{
+  message: 'Ruta GET /eplo no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-16T13:30:22.259Z'
+}
+{
+  message: 'Ruta GET /favicon.ico no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-16T13:30:22.464Z'
+}
+{
+  message: 'Ruta GET /eplo no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-16T13:32:49.309Z'
+}
+{
+  message: 'Ruta GET /favicon.ico no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-16T13:32:49.525Z'
+}
+{
+  message: 'Ruta GET /eplo no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-16T13:35:51.347Z'
+}
+{
+  message: 'Ruta POST /register no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-16T14:53:46.904Z'
+}
+{
+  message: 'Ruta POST /register no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-16T19:48:50.972Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T19:46:34.027Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T19:46:42.502Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T19:47:48.614Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T19:48:06.486Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T19:52:36.190Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T19:53:21.323Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T19:57:56.472Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T20:47:05.183Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T20:48:13.127Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T20:49:41.115Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T20:49:54.704Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T20:50:23.991Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T20:51:45.977Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T20:53:22.420Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T20:55:38.978Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T20:55:41.789Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T20:56:49.471Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T21:04:44.334Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T21:04:46.795Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T21:08:51.745Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T21:09:01.729Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T21:12:08.292Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T21:12:20.446Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T21:13:14.061Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T21:13:14.927Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T21:14:13.341Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T21:22:50.857Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T21:22:53.805Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T21:31:20.801Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T21:31:30.045Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T21:34:10.369Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T21:34:11.246Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T21:35:52.188Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T21:36:24.853Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T21:53:36.227Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T21:53:44.524Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T21:54:43.382Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T22:12:23.549Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T22:44:39.474Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T22:44:50.610Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T22:46:16.386Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T22:46:21.561Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T22:49:59.301Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T22:50:08.226Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T22:55:47.513Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T22:55:53.854Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-17T23:03:07.281Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-18T00:14:18.885Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-18T00:24:56.923Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-18T00:27:54.851Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-18T00:48:35.521Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-18T00:48:47.808Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-18T00:49:15.919Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-18T00:56:44.655Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-18T06:44:34.642Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-18T06:44:38.755Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T15:03:21.044Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T15:51:23.800Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T15:52:29.973Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T15:54:38.538Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T15:54:42.420Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T15:55:29.955Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T16:38:28.843Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T16:44:02.732Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T16:47:47.389Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T16:47:51.127Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T16:57:27.421Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T16:57:29.002Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T16:57:49.951Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T17:03:14.941Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T17:06:49.866Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T17:08:20.878Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T17:09:16.045Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T17:18:16.280Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T17:18:47.926Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T18:34:04.297Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T18:35:20.120Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T18:35:25.697Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T18:36:28.057Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T18:38:04.153Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T18:38:07.487Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T18:38:09.972Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T18:38:15.671Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T18:38:34.070Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T18:38:42.076Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T18:38:51.181Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T18:41:38.712Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T18:41:41.773Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T18:41:50.218Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T18:46:10.787Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T18:46:16.922Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T18:46:25.484Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T18:47:02.864Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T18:47:10.945Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T18:47:42.298Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T18:47:43.386Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T18:47:51.706Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T18:53:24.367Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T18:54:27.764Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T18:54:29.617Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T18:54:53.775Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T18:56:41.654Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T18:56:45.582Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T18:57:08.318Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T18:58:09.278Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T18:58:18.126Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T18:58:33.665Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T18:59:26.646Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T19:04:38.354Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T19:04:45.502Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T19:05:26.221Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T19:05:29.681Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T19:05:57.062Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T19:06:00.497Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T19:07:47.707Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T19:07:49.999Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T19:08:31.434Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T19:08:34.058Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T19:09:19.595Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T19:09:24.220Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T19:13:23.189Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T19:13:25.938Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T19:15:53.671Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T19:15:56.209Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T19:17:42.093Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T19:17:42.847Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T19:18:58.711Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T19:19:01.695Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T19:19:03.269Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T19:44:10.198Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T19:44:26.477Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T19:48:23.537Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T20:00:16.379Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T20:00:36.644Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T20:06:40.182Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T20:06:44.967Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T20:15:13.271Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T20:16:11.841Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T20:16:43.527Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T20:25:00.659Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T20:30:35.085Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T20:30:56.955Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T20:32:23.769Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T20:32:33.569Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T20:33:22.625Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T20:33:27.513Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T20:35:24.889Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T20:35:36.347Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T20:37:14.045Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T20:37:14.854Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T20:38:23.195Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T20:38:26.597Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T20:39:44.640Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T20:44:05.566Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T20:44:06.533Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T20:45:06.317Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T20:45:10.700Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T20:45:54.763Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T20:48:27.053Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T20:48:31.060Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T20:50:52.437Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T20:50:58.930Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T21:03:14.012Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T21:03:22.723Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T21:04:15.139Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T21:05:02.736Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T21:06:40.580Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T21:09:44.159Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T21:09:54.899Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T21:13:57.587Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T21:26:18.611Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T21:28:27.817Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T21:29:30.073Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T21:29:55.186Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T21:30:58.752Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T21:34:13.269Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T21:35:48.650Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T21:38:44.718Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T21:39:40.063Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T21:39:53.184Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T21:47:12.086Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T21:47:15.221Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T21:49:07.587Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T21:49:10.308Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T21:54:08.520Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T21:55:31.771Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T21:55:35.077Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T22:12:54.153Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T22:13:47.283Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T22:13:58.268Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T22:15:02.454Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T22:15:15.205Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T22:17:08.716Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T22:59:40.740Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-19T22:59:53.334Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T13:25:00.028Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T13:25:18.716Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T13:33:29.281Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T13:33:45.541Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T13:45:50.302Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T13:45:54.690Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T13:48:56.690Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T13:51:38.943Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T13:51:45.958Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T13:52:56.917Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T13:53:02.418Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T13:54:30.960Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T13:54:40.088Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T13:56:05.703Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T14:15:24.879Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T14:15:42.089Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T14:16:37.914Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T14:19:57.912Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T14:21:50.740Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T14:23:53.005Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T14:25:34.517Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T14:33:28.621Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T14:34:26.807Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T14:34:56.465Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T14:35:02.598Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T14:37:32.880Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T14:37:34.880Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T14:37:40.845Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T14:40:54.245Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T14:40:55.746Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T14:41:19.222Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T14:41:23.403Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T14:41:25.515Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T14:43:27.576Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T14:43:48.877Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T14:46:09.158Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T14:46:10.046Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T14:46:19.078Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T14:46:25.366Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T14:46:42.262Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T14:49:42.906Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T15:21:53.509Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T15:22:05.342Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T15:38:35.335Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T15:38:48.658Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T15:52:50.332Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T15:53:08.641Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T16:02:03.816Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T16:05:01.689Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T16:08:24.844Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T16:09:41.917Z'
+}
+{
+  message: 'Ruta GET /undefined no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T16:09:47.800Z'
+}
+{
+  message: 'Ruta GET /info no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-20T17:11:21.245Z'
+}

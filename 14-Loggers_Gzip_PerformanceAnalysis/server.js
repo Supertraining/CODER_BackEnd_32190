@@ -106,11 +106,11 @@ app.get('/api/productos-test', getFakerProducts, (req, res) => {
 	routeLogger(req, 'info')
 });
 
-app.get('/*', (req, res) => {
-    const { url, method } = req
-	routeLogger(req, 'warn');
-	res.send(`La ruta ${method} ${url} no esta implementada`)
-})
+// app.get('/*', (req, res) => {
+//     const { url, method } = req
+// 	routeLogger(req, 'warn');
+// 	res.send(`La ruta ${method} ${url} no esta implementada`)
+// })
 
 
 
@@ -131,6 +131,7 @@ io.on('connection', async (Socket) => {
 	Socket.on('new-message', newMessages);
 
 	let messages = await getAllMessages();
+	
 	Socket.emit('normalizedMessages', messages);
 });
 

@@ -119,7 +119,6 @@ socket.on('normalizedMessages', (data) => {
 		mensajes: [messageSchema],
 	});
 	const mensajesDenormalizados = normalizr.denormalize(data.result, postSchema, data.entities);
-
 	const compresion = (
 		100 -
 		(JSON.stringify(data).length * 100) / JSON.stringify(mensajesDenormalizados).length
