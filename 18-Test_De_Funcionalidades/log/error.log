@@ -1,0 +1,1161 @@
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-10T14:36:20.034Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-10T15:49:05.361Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-10T15:50:05.642Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-10T16:01:52.932Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-10T16:02:11.628Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-16T13:49:12.060Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-16T13:49:31.075Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-16T13:52:03.264Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-16T13:52:19.637Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-16T14:21:54.905Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-16T14:22:45.788Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-16T14:23:26.260Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-16T14:32:21.663Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-16T14:38:01.999Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-16T14:38:03.352Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-16T14:38:04.604Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-16T14:45:12.265Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-17T19:43:59.588Z'
+}
+{ level: 'error', timestamp: '2023-03-17T19:43:59.591Z' }
+{ level: 'error', timestamp: '2023-03-17T19:43:59.592Z' }
+{ level: 'error', timestamp: '2023-03-17T19:46:33.368Z' }
+{ level: 'error', timestamp: '2023-03-17T19:46:33.371Z' }
+{ level: 'error', timestamp: '2023-03-17T19:46:42.334Z' }
+{ level: 'error', timestamp: '2023-03-17T19:46:42.336Z' }
+{ level: 'error', timestamp: '2023-03-17T19:47:48.402Z' }
+{ level: 'error', timestamp: '2023-03-17T19:47:48.403Z' }
+{ level: 'error', timestamp: '2023-03-17T19:48:05.800Z' }
+{ level: 'error', timestamp: '2023-03-17T19:48:05.803Z' }
+{ level: 'error', timestamp: '2023-03-17T21:31:20.167Z' }
+{ level: 'error', timestamp: '2023-03-17T21:31:29.649Z' }
+{ level: 'error', timestamp: '2023-03-17T21:34:05.781Z' }
+{ level: 'error', timestamp: '2023-03-17T21:34:11.125Z' }
+{ level: 'error', timestamp: '2023-03-17T21:35:52.067Z' }
+{ level: 'error', timestamp: '2023-03-17T21:36:24.737Z' }
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-17T23:49:09.375Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-17T23:54:12.363Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-17T23:54:21.195Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-17T23:55:35.868Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-17T23:55:41.646Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-17T23:56:25.361Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-17T23:56:29.841Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-17T23:57:35.902Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-17T23:57:39.375Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-17T23:58:28.354Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-17T23:58:38.408Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-17T23:59:40.958Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-18T00:00:05.577Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-18T00:01:26.112Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-18T00:01:41.297Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-18T00:01:53.277Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-18T00:02:18.240Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-18T00:04:27.734Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-18T00:05:48.365Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-18T00:09:25.958Z'
+}
+{ level: 'error', timestamp: '2023-03-18T01:36:16.220Z' }
+{ level: 'error', timestamp: '2023-03-18T01:36:24.987Z' }
+{ level: 'error', timestamp: '2023-03-18T01:36:40.746Z' }
+{ level: 'error', timestamp: '2023-03-18T06:15:10.676Z' }
+{ level: 'error', timestamp: '2023-03-18T06:16:07.612Z' }
+{ level: 'error', timestamp: '2023-03-18T06:16:19.463Z' }
+{ level: 'error', timestamp: '2023-03-18T06:16:26.563Z' }
+{ level: 'error', timestamp: '2023-03-18T06:19:09.565Z' }
+{ level: 'error', timestamp: '2023-03-18T06:19:11.390Z' }
+{ level: 'error', timestamp: '2023-03-18T06:19:25.402Z' }
+{ level: 'error', timestamp: '2023-03-18T06:20:45.611Z' }
+{ level: 'error', timestamp: '2023-03-18T06:21:25.338Z' }
+{ level: 'error', timestamp: '2023-03-18T06:22:33.732Z' }
+{ level: 'error', timestamp: '2023-03-18T06:23:41.289Z' }
+{ level: 'error', timestamp: '2023-03-18T06:37:24.804Z' }
+{ level: 'error', timestamp: '2023-03-18T06:37:49.201Z' }
+{ level: 'error', timestamp: '2023-03-18T06:38:42.116Z' }
+{ level: 'error', timestamp: '2023-03-18T06:39:35.315Z' }
+{ level: 'error', timestamp: '2023-03-19T18:35:24.936Z' }
+{ level: 'error', timestamp: '2023-03-19T18:38:09.335Z' }
+{ level: 'error', timestamp: '2023-03-19T18:38:50.384Z' }
+{ level: 'error', timestamp: '2023-03-19T18:41:49.581Z' }
+{ level: 'error', timestamp: '2023-03-19T18:46:24.872Z' }
+{ level: 'error', timestamp: '2023-03-19T18:47:10.675Z' }
+{ level: 'error', timestamp: '2023-03-19T18:47:51.141Z' }
+{
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'foto' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: "update `productos` set `nombre` = 'Guitarra criolla', `precio` = '20000', `foto` = 'crio.jpg' where `id` = '5'",
+  level: 'error',
+  timestamp: '2023-03-19T18:54:53.245Z'
+}
+{ level: 'error', timestamp: '2023-03-19T18:54:53.248Z' }
+{
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'foto' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: "update `productos` set `nombre` = 'Bateria Pearl', `precio` = '500000', `foto` = 'peral.jpg' where `id` = '5'",
+  level: 'error',
+  timestamp: '2023-03-19T18:57:07.294Z'
+}
+{ level: 'error', timestamp: '2023-03-19T18:57:07.297Z' }
+{ level: 'error', timestamp: '2023-03-19T18:58:30.635Z' }
+{ level: 'error', timestamp: '2023-03-19T18:59:26.006Z' }
+{ level: 'error', timestamp: '2023-03-19T18:59:34.915Z' }
+{ level: 'error', timestamp: '2023-03-19T18:59:38.538Z' }
+{ level: 'error', timestamp: '2023-03-19T18:59:41.675Z' }
+{ level: 'error', timestamp: '2023-03-19T19:04:49.745Z' }
+{ level: 'error', timestamp: '2023-03-19T19:05:34.591Z' }
+{ level: 'error', timestamp: '2023-03-19T19:06:02.798Z' }
+{ level: 'error', timestamp: '2023-03-19T19:07:51.364Z' }
+{ level: 'error', timestamp: '2023-03-19T19:08:35.437Z' }
+{ level: 'error', timestamp: '2023-03-19T19:09:26.132Z' }
+{ level: 'error', timestamp: '2023-03-19T19:13:28.235Z' }
+{ level: 'error', timestamp: '2023-03-19T20:28:20.129Z' }
+{ level: 'error', timestamp: '2023-03-19T20:29:31.191Z' }
+{ level: 'error', timestamp: '2023-03-19T20:30:35.219Z' }
+{ level: 'error', timestamp: '2023-03-19T20:30:57.157Z' }
+{ level: 'error', timestamp: '2023-03-19T20:32:23.714Z' }
+{ level: 'error', timestamp: '2023-03-19T20:32:33.426Z' }
+{ level: 'error', timestamp: '2023-03-19T20:33:22.767Z' }
+{ level: 'error', timestamp: '2023-03-19T20:33:27.390Z' }
+{ level: 'error', timestamp: '2023-03-19T20:37:14.266Z' }
+{ level: 'error', timestamp: '2023-03-19T20:37:14.704Z' }
+{ level: 'error', timestamp: '2023-03-19T20:38:23.139Z' }
+{ level: 'error', timestamp: '2023-03-19T20:38:26.205Z' }
+{ level: 'error', timestamp: '2023-03-19T20:39:44.578Z' }
+{ level: 'error', timestamp: '2023-03-19T20:44:05.735Z' }
+{ level: 'error', timestamp: '2023-03-19T20:44:06.443Z' }
+{ level: 'error', timestamp: '2023-03-19T20:45:06.486Z' }
+{ level: 'error', timestamp: '2023-03-19T20:45:10.585Z' }
+{ level: 'error', timestamp: '2023-03-19T20:45:54.694Z' }
+{ level: 'error', timestamp: '2023-03-19T21:03:14.230Z' }
+{ level: 'error', timestamp: '2023-03-19T21:03:22.591Z' }
+{ level: 'error', timestamp: '2023-03-19T21:04:15.084Z' }
+{ level: 'error', timestamp: '2023-03-19T21:05:02.878Z' }
+{ level: 'error', timestamp: '2023-03-19T21:06:40.479Z' }
+{ level: 'error', timestamp: '2023-03-19T21:09:44.347Z' }
+{ level: 'error', timestamp: '2023-03-19T21:09:54.755Z' }
+{ level: 'error', timestamp: '2023-03-19T21:13:57.798Z' }
+{ level: 'error', timestamp: '2023-03-19T21:26:18.601Z' }
+{ level: 'error', timestamp: '2023-03-19T21:28:27.787Z' }
+{ level: 'error', timestamp: '2023-03-19T21:29:30.064Z' }
+{ level: 'error', timestamp: '2023-03-19T21:29:30.065Z' }
+{ level: 'error', timestamp: '2023-03-19T21:29:55.423Z' }
+{ level: 'error', timestamp: '2023-03-19T21:29:55.426Z' }
+{ level: 'error', timestamp: '2023-03-19T21:30:58.721Z' }
+{ level: 'error', timestamp: '2023-03-19T21:34:13.501Z' }
+{ level: 'error', timestamp: '2023-03-19T21:35:48.840Z' }
+{ level: 'error', timestamp: '2023-03-19T21:35:48.842Z' }
+{ level: 'error', timestamp: '2023-03-19T21:38:44.960Z' }
+{ level: 'error', timestamp: '2023-03-20T02:08:27.232Z' }
+{ level: 'error', timestamp: '2023-03-20T02:11:35.011Z' }
+{ level: 'error', timestamp: '2023-03-20T02:38:14.522Z' }
+{ level: 'error', timestamp: '2023-03-20T10:39:26.034Z' }
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-20T10:49:47.298Z'
+}
+{ level: 'error', timestamp: '2023-03-20T10:49:47.307Z' }
+{ level: 'error', timestamp: '2023-03-20T11:14:20.052Z' }
+{ level: 'error', timestamp: '2023-03-20T11:14:20.054Z' }
+{ level: 'error', timestamp: '2023-03-20T11:19:30.148Z' }
+{ level: 'error', timestamp: '2023-03-20T11:19:30.150Z' }
+{ level: 'error', timestamp: '2023-03-20T11:22:58.979Z' }
+{ level: 'error', timestamp: '2023-03-20T11:22:58.981Z' }
+{ level: 'error', timestamp: '2023-03-20T11:24:50.589Z' }
+{ level: 'error', timestamp: '2023-03-20T11:24:50.595Z' }
+{ level: 'error', timestamp: '2023-03-20T11:28:40.394Z' }
+{ level: 'error', timestamp: '2023-03-20T11:28:40.396Z' }
+{ level: 'error', timestamp: '2023-03-20T11:31:17.879Z' }
+{ level: 'error', timestamp: '2023-03-20T11:31:17.881Z' }
+{ level: 'error', timestamp: '2023-03-20T11:32:58.149Z' }
+{ level: 'error', timestamp: '2023-03-20T11:32:58.151Z' }
+{ level: 'error', timestamp: '2023-03-20T11:45:53.000Z' }
+{ level: 'error', timestamp: '2023-03-20T11:45:53.004Z' }
+{ level: 'error', timestamp: '2023-03-20T11:55:20.531Z' }
+{ level: 'error', timestamp: '2023-03-20T11:55:20.535Z' }
+{ level: 'error', timestamp: '2023-03-20T11:59:42.714Z' }
+{ level: 'error', timestamp: '2023-03-20T11:59:42.716Z' }
+{ level: 'error', timestamp: '2023-03-20T12:01:43.255Z' }
+{ level: 'error', timestamp: '2023-03-20T12:01:43.256Z' }
+{ level: 'error', timestamp: '2023-03-20T12:02:26.858Z' }
+{ level: 'error', timestamp: '2023-03-20T12:02:26.861Z' }
+{ level: 'error', timestamp: '2023-03-20T12:03:26.613Z' }
+{ level: 'error', timestamp: '2023-03-20T12:03:26.614Z' }
+{ level: 'error', timestamp: '2023-03-20T12:04:48.975Z' }
+{ level: 'error', timestamp: '2023-03-20T12:04:48.978Z' }
+{ level: 'error', timestamp: '2023-03-20T12:06:26.102Z' }
+{ level: 'error', timestamp: '2023-03-20T12:06:26.105Z' }
+{ level: 'error', timestamp: '2023-03-20T12:08:16.992Z' }
+{ level: 'error', timestamp: '2023-03-20T12:08:16.994Z' }
+{ level: 'error', timestamp: '2023-03-20T12:13:43.128Z' }
+{ level: 'error', timestamp: '2023-03-20T12:13:43.129Z' }
+{ level: 'error', timestamp: '2023-03-20T12:16:08.331Z' }
+{ level: 'error', timestamp: '2023-03-20T12:16:08.332Z' }
+{ level: 'error', timestamp: '2023-03-20T12:17:53.213Z' }
+{ level: 'error', timestamp: '2023-03-20T12:17:53.215Z' }
+{ level: 'error', timestamp: '2023-03-20T12:22:00.712Z' }
+{ level: 'error', timestamp: '2023-03-20T12:22:00.713Z' }
+{ level: 'error', timestamp: '2023-03-20T12:23:00.219Z' }
+{ level: 'error', timestamp: '2023-03-20T12:23:00.220Z' }
+{ level: 'error', timestamp: '2023-03-20T12:24:08.933Z' }
+{ level: 'error', timestamp: '2023-03-20T12:24:08.935Z' }
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-20T12:24:10.176Z'
+}
+{ level: 'error', timestamp: '2023-03-20T12:24:10.177Z' }
+{ level: 'error', timestamp: '2023-03-20T12:25:08.174Z' }
+{ level: 'error', timestamp: '2023-03-20T12:25:08.176Z' }
+{ level: 'error', timestamp: '2023-03-20T12:25:30.721Z' }
+{ level: 'error', timestamp: '2023-03-20T12:25:30.723Z' }
+{ level: 'error', timestamp: '2023-03-20T12:25:57.798Z' }
+{ level: 'error', timestamp: '2023-03-20T12:27:22.645Z' }
+{ level: 'error', timestamp: '2023-03-20T12:28:12.546Z' }
+{ level: 'error', timestamp: '2023-03-20T12:29:18.288Z' }
+{ level: 'error', timestamp: '2023-03-20T12:29:48.824Z' }
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-20T12:30:08.354Z'
+}
+{ level: 'error', timestamp: '2023-03-20T12:30:08.356Z' }
+{ level: 'error', timestamp: '2023-03-20T12:31:12.619Z' }
+{ level: 'error', timestamp: '2023-03-20T12:31:58.299Z' }
+{ level: 'error', timestamp: '2023-03-20T12:32:07.299Z' }
+{ level: 'error', timestamp: '2023-03-20T12:32:10.793Z' }
+{ level: 'error', timestamp: '2023-03-20T12:32:21.793Z' }
+{ level: 'error', timestamp: '2023-03-20T12:33:05.682Z' }
+{ level: 'error', timestamp: '2023-03-20T12:33:05.683Z' }
+{ level: 'error', timestamp: '2023-03-20T12:33:06.635Z' }
+{ level: 'error', timestamp: '2023-03-20T12:38:16.751Z' }
+{ level: 'error', timestamp: '2023-03-20T12:38:42.108Z' }
+{ level: 'error', timestamp: '2023-03-20T12:39:31.891Z' }
+{ level: 'error', timestamp: '2023-03-20T12:39:41.621Z' }
+{ level: 'error', timestamp: '2023-03-20T12:40:57.276Z' }
+{ level: 'error', timestamp: '2023-03-20T12:41:53.384Z' }
+{ level: 'error', timestamp: '2023-03-20T12:43:59.948Z' }
+{ level: 'error', timestamp: '2023-03-20T12:48:18.855Z' }
+{ level: 'error', timestamp: '2023-03-20T12:48:18.856Z' }
+{ level: 'error', timestamp: '2023-03-20T12:49:36.557Z' }
+{ level: 'error', timestamp: '2023-03-20T12:49:36.558Z' }
+{ level: 'error', timestamp: '2023-03-20T12:50:27.451Z' }
+{ level: 'error', timestamp: '2023-03-20T12:53:04.655Z' }
+{ level: 'error', timestamp: '2023-03-20T12:53:29.185Z' }
+{ level: 'error', timestamp: '2023-03-20T13:01:17.746Z' }
+{ level: 'error', timestamp: '2023-03-20T13:01:22.529Z' }
+{ level: 'error', timestamp: '2023-03-20T13:02:20.017Z' }
+{ level: 'error', timestamp: '2023-03-20T13:03:38.492Z' }
+{ level: 'error', timestamp: '2023-03-20T13:07:54.196Z' }
+{ level: 'error', timestamp: '2023-03-20T13:07:55.114Z' }
+{ level: 'error', timestamp: '2023-03-20T13:10:58.161Z' }
+{ level: 'error', timestamp: '2023-03-20T13:11:09.902Z' }
+{ level: 'error', timestamp: '2023-03-20T13:11:10.799Z' }
+{ level: 'error', timestamp: '2023-03-20T13:12:37.802Z' }
+{ level: 'error', timestamp: '2023-03-20T13:13:01.896Z' }
+{ level: 'error', timestamp: '2023-03-20T13:14:27.885Z' }
+{ level: 'error', timestamp: '2023-03-20T13:14:57.481Z' }
+{ level: 'error', timestamp: '2023-03-20T13:36:59.416Z' }
+{ level: 'error', timestamp: '2023-03-20T13:41:16.597Z' }
+{ level: 'error', timestamp: '2023-03-20T13:41:16.599Z' }
+{ level: 'error', timestamp: '2023-03-20T13:45:50.186Z' }
+{ level: 'error', timestamp: '2023-03-20T13:45:54.452Z' }
+{ level: 'error', timestamp: '2023-03-20T13:48:55.948Z' }
+{ level: 'error', timestamp: '2023-03-20T13:51:38.822Z' }
+{ level: 'error', timestamp: '2023-03-20T13:51:45.810Z' }
+{ level: 'error', timestamp: '2023-03-20T13:52:24.636Z' }
+{ level: 'error', timestamp: '2023-03-20T13:52:28.769Z' }
+{ level: 'error', timestamp: '2023-03-20T13:52:56.803Z' }
+{ level: 'error', timestamp: '2023-03-20T13:53:02.207Z' }
+{ level: 'error', timestamp: '2023-03-20T13:54:30.188Z' }
+{ level: 'error', timestamp: '2023-03-20T13:54:39.924Z' }
+{ level: 'error', timestamp: '2023-03-20T14:17:53.774Z' }
+{ level: 'error', timestamp: '2023-03-20T14:19:22.784Z' }
+{ level: 'error', timestamp: '2023-03-20T14:33:04.140Z' }
+{ level: 'error', timestamp: '2023-03-20T14:40:58.241Z' }
+{ level: 'error', timestamp: '2023-03-20T14:41:00.205Z' }
+{ level: 'error', timestamp: '2023-03-20T14:46:24.899Z' }
+{ level: 'error', timestamp: '2023-03-20T14:46:24.906Z' }
+{ level: 'error', timestamp: '2023-03-20T14:46:40.622Z' }
+{ level: 'error', timestamp: '2023-03-20T14:46:40.624Z' }
+{ level: 'error', timestamp: '2023-03-20T15:53:07.552Z' }
+{ level: 'error', timestamp: '2023-03-20T15:53:25.930Z' }
+{ level: 'error', timestamp: '2023-03-20T15:53:25.932Z' }
+{ level: 'error', timestamp: '2023-03-20T15:55:00.550Z' }
+{ level: 'error', timestamp: '2023-03-20T15:55:00.552Z' }
+{ level: 'error', timestamp: '2023-03-20T15:59:23.319Z' }
+{ level: 'error', timestamp: '2023-03-20T15:59:23.322Z' }
+{ level: 'error', timestamp: '2023-03-20T16:00:15.924Z' }
+{ level: 'error', timestamp: '2023-03-20T16:00:15.926Z' }
+{ level: 'error', timestamp: '2023-03-20T16:05:01.105Z' }
+{ level: 'error', timestamp: '2023-03-20T16:05:01.117Z' }
+{ level: 'error', timestamp: '2023-03-20T16:40:40.083Z' }
+{ level: 'error', timestamp: '2023-03-20T16:47:24.530Z' }
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-22T14:40:40.056Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-22T15:04:57.854Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-22T15:05:59.681Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-03-22T15:35:50.030Z'
+}
+{ level: 'error', timestamp: '2023-03-22T15:35:50.032Z' }
+{ level: 'error', timestamp: '2023-03-22T15:42:45.748Z' }
+{ level: 'error', timestamp: '2023-03-22T15:45:23.500Z' }
+{ level: 'error', timestamp: '2023-03-22T15:45:23.502Z' }
+{ level: 'error', timestamp: '2023-03-22T15:59:29.533Z' }
+{ level: 'error', timestamp: '2023-03-22T15:59:33.209Z' }
+{ level: 'error', timestamp: '2023-03-22T16:00:08.435Z' }
+{ level: 'error', timestamp: '2023-03-22T16:00:11.008Z' }
+{ level: 'error', timestamp: '2023-03-22T16:00:18.233Z' }
+{ level: 'error', timestamp: '2023-03-22T16:01:19.908Z' }
+{ level: 'error', timestamp: '2023-03-22T16:01:29.054Z' }
+{
+  code: 'ER_NO_TABLES_USED',
+  errno: 1096,
+  sqlMessage: 'No tables used',
+  sqlState: 'HY000',
+  index: 0,
+  sql: 'select * from `productos` where `id` = (select *)',
+  level: 'error',
+  timestamp: '2023-03-22T16:04:04.094Z'
+}
+{
+  code: 'ERR_HTTP_HEADERS_SENT',
+  level: 'error',
+  timestamp: '2023-03-22T16:04:04.100Z'
+}
+{
+  code: 'ER_NO_TABLES_USED',
+  errno: 1096,
+  sqlMessage: 'No tables used',
+  sqlState: 'HY000',
+  index: 0,
+  sql: 'select * from `productos` where `id` = (select *)',
+  level: 'error',
+  timestamp: '2023-03-22T16:04:22.987Z'
+}
+{
+  code: 'ERR_HTTP_HEADERS_SENT',
+  level: 'error',
+  timestamp: '2023-03-22T16:04:22.991Z'
+}
+{
+  code: 'ER_NO_TABLES_USED',
+  errno: 1096,
+  sqlMessage: 'No tables used',
+  sqlState: 'HY000',
+  index: 0,
+  sql: 'select * from `productos` where `id` = (select *)',
+  level: 'error',
+  timestamp: '2023-03-22T16:05:29.158Z'
+}
+{
+  code: 'ERR_HTTP_HEADERS_SENT',
+  level: 'error',
+  timestamp: '2023-03-22T16:05:29.162Z'
+}
+{
+  code: 'ER_NO_TABLES_USED',
+  errno: 1096,
+  sqlMessage: 'No tables used',
+  sqlState: 'HY000',
+  index: 0,
+  sql: 'select * from `productos` where `id` = (select *)',
+  level: 'error',
+  timestamp: '2023-03-22T16:05:32.307Z'
+}
+{
+  code: 'ERR_HTTP_HEADERS_SENT',
+  level: 'error',
+  timestamp: '2023-03-22T16:05:32.309Z'
+}
+{
+  code: 'ER_NO_TABLES_USED',
+  errno: 1096,
+  sqlMessage: 'No tables used',
+  sqlState: 'HY000',
+  index: 0,
+  sql: 'select * from `productos` where `id` = (select *)',
+  level: 'error',
+  timestamp: '2023-03-22T16:06:29.860Z'
+}
+{
+  code: 'ERR_HTTP_HEADERS_SENT',
+  level: 'error',
+  timestamp: '2023-03-22T16:06:29.863Z'
+}
+{ level: 'error', timestamp: '2023-03-22T16:07:08.437Z' }
+{ level: 'error', timestamp: '2023-03-22T16:07:36.892Z' }
+{ level: 'error', timestamp: '2023-03-22T16:07:40.136Z' }
+{ level: 'error', timestamp: '2023-03-22T16:36:34.205Z' }
+{ level: 'error', timestamp: '2023-03-22T16:36:34.206Z' }
+{ level: 'error', timestamp: '2023-03-22T16:38:13.526Z' }
+{ level: 'error', timestamp: '2023-03-22T16:38:13.527Z' }
+{ level: 'error', timestamp: '2023-03-22T16:38:44.570Z' }
+{ level: 'error', timestamp: '2023-03-22T16:38:44.571Z' }
+{ level: 'error', timestamp: '2023-03-22T16:39:33.946Z' }
+{ level: 'error', timestamp: '2023-03-22T16:39:33.947Z' }
+{ level: 'error', timestamp: '2023-03-22T16:40:13.698Z' }
+{ level: 'error', timestamp: '2023-03-22T16:40:13.699Z' }
+{ level: 'error', timestamp: '2023-03-22T16:41:57.172Z' }
+{ level: 'error', timestamp: '2023-03-22T16:41:57.173Z' }
+{ level: 'error', timestamp: '2023-03-22T16:42:57.426Z' }
+{ level: 'error', timestamp: '2023-03-22T16:42:57.429Z' }
+{ level: 'error', timestamp: '2023-03-22T16:43:55.076Z' }
+{ level: 'error', timestamp: '2023-03-22T16:43:55.078Z' }
+{ level: 'error', timestamp: '2023-03-22T16:47:42.910Z' }
+{ level: 'error', timestamp: '2023-03-22T16:49:05.313Z' }
+{ level: 'error', timestamp: '2023-03-22T16:49:38.945Z' }
+{ level: 'error', timestamp: '2023-03-22T16:50:14.871Z' }
+{ level: 'error', timestamp: '2023-03-22T16:51:06.293Z' }
+{ level: 'error', timestamp: '2023-03-22T16:51:06.294Z' }
+{ level: 'error', timestamp: '2023-03-22T16:51:33.379Z' }
+{ level: 'error', timestamp: '2023-03-22T16:51:33.381Z' }
+{ level: 'error', timestamp: '2023-03-22T16:52:16.884Z' }
+{ level: 'error', timestamp: '2023-03-22T16:52:16.886Z' }
+{ level: 'error', timestamp: '2023-03-22T16:53:13.268Z' }
+{ level: 'error', timestamp: '2023-03-22T16:53:37.650Z' }
+{ level: 'error', timestamp: '2023-03-22T16:54:02.747Z' }
+{ level: 'error', timestamp: '2023-03-22T16:54:25.961Z' }
+{ level: 'error', timestamp: '2023-03-22T16:55:32.962Z' }
+{ level: 'error', timestamp: '2023-03-22T16:56:17.483Z' }
+{ level: 'error', timestamp: '2023-03-22T16:57:07.530Z' }
+{ level: 'error', timestamp: '2023-03-22T17:07:06.430Z' }
+{ level: 'error', timestamp: '2023-03-22T17:07:44.691Z' }
+{ level: 'error', timestamp: '2023-03-22T17:08:49.090Z' }
+{ level: 'error', timestamp: '2023-03-22T18:37:43.148Z' }
+{ level: 'error', timestamp: '2023-03-22T18:37:43.149Z' }
+{ level: 'error', timestamp: '2023-03-22T18:37:46.721Z' }
+{ level: 'error', timestamp: '2023-03-22T18:37:46.722Z' }
+{ level: 'error', timestamp: '2023-03-22T18:37:49.459Z' }
+{ level: 'error', timestamp: '2023-03-22T18:37:49.459Z' }
+{ level: 'error', timestamp: '2023-03-22T18:37:52.028Z' }
+{ level: 'error', timestamp: '2023-03-22T18:37:52.029Z' }
+{ level: 'error', timestamp: '2023-03-22T18:38:39.933Z' }
+{ level: 'error', timestamp: '2023-03-22T18:38:39.934Z' }
+{ level: 'error', timestamp: '2023-03-22T18:43:16.661Z' }
+{ level: 'error', timestamp: '2023-03-22T18:43:16.661Z' }
+{ level: 'error', timestamp: '2023-03-22T18:43:19.269Z' }
+{ level: 'error', timestamp: '2023-03-22T18:43:19.270Z' }
+{ level: 'error', timestamp: '2023-03-22T18:50:50.510Z' }
+{ level: 'error', timestamp: '2023-03-22T18:50:50.510Z' }
+{ level: 'error', timestamp: '2023-03-22T18:50:52.271Z' }
+{ level: 'error', timestamp: '2023-03-22T18:50:52.272Z' }
+{ level: 'error', timestamp: '2023-03-22T18:50:53.592Z' }
+{ level: 'error', timestamp: '2023-03-22T18:50:53.593Z' }
+{ level: 'error', timestamp: '2023-03-22T18:50:54.899Z' }
+{ level: 'error', timestamp: '2023-03-22T18:50:54.900Z' }
+{ level: 'error', timestamp: '2023-03-22T18:50:56.200Z' }
+{ level: 'error', timestamp: '2023-03-22T18:50:56.201Z' }
+{ level: 'error', timestamp: '2023-03-22T18:50:57.867Z' }
+{ level: 'error', timestamp: '2023-03-22T18:50:57.867Z' }
+{ level: 'error', timestamp: '2023-03-22T18:51:09.147Z' }
+{ level: 'error', timestamp: '2023-03-22T18:51:09.148Z' }
+{ level: 'error', timestamp: '2023-03-22T19:44:05.561Z' }
+{ level: 'error', timestamp: '2023-03-22T19:44:05.561Z' }
+{ level: 'error', timestamp: '2023-03-22T19:44:06.789Z' }
+{ level: 'error', timestamp: '2023-03-22T19:44:06.790Z' }
+{ level: 'error', timestamp: '2023-03-22T19:44:08.063Z' }
+{ level: 'error', timestamp: '2023-03-22T19:44:08.064Z' }
+{ level: 'error', timestamp: '2023-03-22T19:44:09.235Z' }
+{ level: 'error', timestamp: '2023-03-22T19:44:09.236Z' }
+{ level: 'error', timestamp: '2023-03-22T19:44:16.224Z' }
+{ level: 'error', timestamp: '2023-03-22T19:44:16.225Z' }
+{ level: 'error', timestamp: '2023-03-22T19:54:41.030Z' }
+{
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  level: 'error',
+  timestamp: '2023-03-22T19:55:26.232Z'
+}
+{ level: 'error', timestamp: '2023-03-22T20:03:20.166Z' }
+{ level: 'error', timestamp: '2023-03-22T20:03:20.169Z' }
+{ level: 'error', timestamp: '2023-03-22T20:04:16.591Z' }
+{ level: 'error', timestamp: '2023-03-22T20:04:16.594Z' }
+{ level: 'error', timestamp: '2023-03-22T20:05:01.998Z' }
+{ level: 'error', timestamp: '2023-03-22T20:05:02.006Z' }
+{ level: 'error', timestamp: '2023-03-22T20:05:41.835Z' }
+{ level: 'error', timestamp: '2023-03-22T20:05:41.841Z' }
+{ level: 'error', timestamp: '2023-03-22T20:06:14.262Z' }
+{ level: 'error', timestamp: '2023-03-22T20:06:26.701Z' }
+{ level: 'error', timestamp: '2023-03-22T20:06:26.702Z' }
+{ level: 'error', timestamp: '2023-03-22T20:06:28.692Z' }
+{ level: 'error', timestamp: '2023-03-22T20:06:28.693Z' }
+{ level: 'error', timestamp: '2023-03-22T20:06:30.352Z' }
+{ level: 'error', timestamp: '2023-03-22T20:06:30.353Z' }
+{ level: 'error', timestamp: '2023-03-22T20:06:32.953Z' }
+{ level: 'error', timestamp: '2023-03-22T20:06:32.954Z' }
+{ level: 'error', timestamp: '2023-03-22T20:06:34.507Z' }
+{ level: 'error', timestamp: '2023-03-22T20:06:34.508Z' }
+{ level: 'error', timestamp: '2023-03-22T20:06:37.335Z' }
+{ level: 'error', timestamp: '2023-03-22T20:06:37.338Z' }
+{ level: 'error', timestamp: '2023-03-22T20:06:38.481Z' }
+{ level: 'error', timestamp: '2023-03-22T20:06:38.482Z' }
+{ level: 'error', timestamp: '2023-03-22T20:06:39.592Z' }
+{ level: 'error', timestamp: '2023-03-22T20:06:39.593Z' }
+{ level: 'error', timestamp: '2023-03-22T20:06:40.599Z' }
+{ level: 'error', timestamp: '2023-03-22T20:06:40.600Z' }
+{
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'producto' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: 'insert into `productos` (`producto`) values (\'{\\"nombre\\":\\"productoDePrueba\\",\\"precio\\":100,\\"imagen\\":\\"prueba12.jpg\\"}\')',
+  level: 'error',
+  timestamp: '2023-03-22T20:25:14.943Z'
+}
+{ level: 'error', timestamp: '2023-03-22T20:25:14.946Z' }
+{
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'producto' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: 'insert into `productos` (`producto`) values (\'{\\"nombre\\":\\"productoDePrueba\\",\\"precio\\":100,\\"imagen\\":\\"prueba12.jpg\\"}\')',
+  level: 'error',
+  timestamp: '2023-03-22T20:27:09.661Z'
+}
+{ level: 'error', timestamp: '2023-03-22T20:27:09.663Z' }
+{ level: 'error', timestamp: '2023-03-22T20:29:16.175Z' }
+{ level: 'error', timestamp: '2023-03-22T20:30:51.394Z' }
+{ level: 'error', timestamp: '2023-03-22T20:32:21.793Z' }
+{ level: 'error', timestamp: '2023-03-22T20:33:22.209Z' }
+{
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'producto' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: 'insert into `productos` (`producto`) values (\'{\\"nombre\\":\\"productoDePrueba\\",\\"precio\\":100,\\"imagen\\":\\"prueba12.jpg\\"}\')',
+  level: 'error',
+  timestamp: '2023-03-22T20:34:36.316Z'
+}
+{ level: 'error', timestamp: '2023-03-22T20:34:36.318Z' }
+{
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'producto' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: 'insert into `productos` (`producto`) values (\'{\\"nombre\\":\\"productoDePrueba\\",\\"precio\\":100,\\"imagen\\":\\"prueba12.jpg\\"}\')',
+  level: 'error',
+  timestamp: '2023-03-22T20:38:56.813Z'
+}
+{ level: 'error', timestamp: '2023-03-22T20:38:56.816Z' }
+{
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'producto' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: 'insert into `productos` (`producto`) values (\'{\\"nombre\\":\\"productoDePrueba\\",\\"precio\\":100,\\"imagen\\":\\"prueba12.jpg\\"}\')',
+  level: 'error',
+  timestamp: '2023-03-22T20:40:03.457Z'
+}
+{ level: 'error', timestamp: '2023-03-22T20:40:03.459Z' }
+{
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'producto' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: 'insert into `productos` (`producto`) values (\'{\\"nombre\\":\\"productoDePrueba\\",\\"precio\\":100,\\"imagen\\":\\"prueba12.jpg\\"}\')',
+  level: 'error',
+  timestamp: '2023-03-22T20:41:44.829Z'
+}
+{ level: 'error', timestamp: '2023-03-22T20:41:44.838Z' }
+{
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'producto' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: 'insert into `productos` (`producto`) values (\'{\\"nombre\\":\\"productoDePrueba\\",\\"precio\\":100,\\"imagen\\":\\"prueba12.jpg\\"}\')',
+  level: 'error',
+  timestamp: '2023-03-22T20:43:27.322Z'
+}
+{ level: 'error', timestamp: '2023-03-22T20:43:27.325Z' }
+{ level: 'error', timestamp: '2023-03-22T20:43:54.147Z' }
+{ level: 'error', timestamp: '2023-03-22T20:45:06.902Z' }
+{ level: 'error', timestamp: '2023-03-22T20:46:02.850Z' }
+{ level: 'error', timestamp: '2023-03-22T20:46:40.479Z' }
+{ level: 'error', timestamp: '2023-03-22T20:47:24.251Z' }
+{ level: 'error', timestamp: '2023-03-22T20:47:36.869Z' }
+{ level: 'error', timestamp: '2023-03-22T20:47:36.869Z' }
+{ level: 'error', timestamp: '2023-03-22T20:47:38.186Z' }
+{ level: 'error', timestamp: '2023-03-22T20:47:38.187Z' }
+{ level: 'error', timestamp: '2023-03-22T20:47:39.543Z' }
+{ level: 'error', timestamp: '2023-03-22T20:47:39.544Z' }
+{ level: 'error', timestamp: '2023-03-22T20:47:40.836Z' }
+{ level: 'error', timestamp: '2023-03-22T20:47:40.837Z' }
+{ level: 'error', timestamp: '2023-03-22T20:47:41.873Z' }
+{ level: 'error', timestamp: '2023-03-22T20:47:41.874Z' }
+{ level: 'error', timestamp: '2023-03-22T20:47:42.973Z' }
+{ level: 'error', timestamp: '2023-03-22T20:47:42.973Z' }
+{ level: 'error', timestamp: '2023-03-22T20:47:44.112Z' }
+{ level: 'error', timestamp: '2023-03-22T20:47:44.113Z' }
+{ level: 'error', timestamp: '2023-03-22T20:47:45.743Z' }
+{ level: 'error', timestamp: '2023-03-22T20:47:45.744Z' }
+{ level: 'error', timestamp: '2023-03-22T20:47:47.167Z' }
+{ level: 'error', timestamp: '2023-03-22T20:47:47.169Z' }
+{ level: 'error', timestamp: '2023-03-22T20:47:48.671Z' }
+{ level: 'error', timestamp: '2023-03-22T20:47:48.676Z' }
+{ level: 'error', timestamp: '2023-03-22T20:47:49.679Z' }
+{ level: 'error', timestamp: '2023-03-22T20:47:49.680Z' }
+{ level: 'error', timestamp: '2023-03-22T20:47:51.523Z' }
+{ level: 'error', timestamp: '2023-03-22T20:47:51.524Z' }
+{ level: 'error', timestamp: '2023-03-22T20:47:52.800Z' }
+{ level: 'error', timestamp: '2023-03-22T20:47:52.800Z' }
+{ level: 'error', timestamp: '2023-03-22T20:48:05.312Z' }
+{ level: 'error', timestamp: '2023-03-22T20:48:05.313Z' }
+{ level: 'error', timestamp: '2023-03-22T20:48:41.681Z' }
+{ level: 'error', timestamp: '2023-03-22T20:48:56.664Z' }
+{ level: 'error', timestamp: '2023-03-22T20:48:56.728Z' }
+{ level: 'error', timestamp: '2023-03-22T20:50:39.486Z' }
+{ level: 'error', timestamp: '2023-03-22T20:50:39.535Z' }
+{ level: 'error', timestamp: '2023-03-22T20:57:57.703Z' }
+{ level: 'error', timestamp: '2023-03-22T20:57:57.705Z' }
+{ level: 'error', timestamp: '2023-03-22T20:58:38.258Z' }
+{ level: 'error', timestamp: '2023-03-22T20:58:38.259Z' }
+{ level: 'error', timestamp: '2023-03-22T20:59:26.135Z' }
+{ level: 'error', timestamp: '2023-03-22T20:59:26.136Z' }
+{ level: 'error', timestamp: '2023-03-22T21:15:16.471Z' }
+{ level: 'error', timestamp: '2023-03-22T21:15:16.471Z' }
+{ level: 'error', timestamp: '2023-03-22T21:18:46.110Z' }
+{ level: 'error', timestamp: '2023-03-22T21:18:46.371Z' }
+{ level: 'error', timestamp: '2023-03-22T21:19:15.909Z' }
+{ level: 'error', timestamp: '2023-03-22T21:19:15.985Z' }
+{ level: 'error', timestamp: '2023-03-22T21:20:22.741Z' }
+{ level: 'error', timestamp: '2023-03-22T21:20:22.787Z' }
+{ level: 'error', timestamp: '2023-03-22T21:21:09.912Z' }
+{ level: 'error', timestamp: '2023-03-22T21:21:09.957Z' }
+{ level: 'error', timestamp: '2023-03-22T21:23:52.299Z' }
+{ level: 'error', timestamp: '2023-03-22T21:23:52.339Z' }
+{ level: 'error', timestamp: '2023-03-22T21:24:21.973Z' }
+{ level: 'error', timestamp: '2023-03-22T21:24:22.017Z' }
+{ level: 'error', timestamp: '2023-03-22T21:30:58.393Z' }
+{ level: 'error', timestamp: '2023-03-22T21:32:01.822Z' }
+{ level: 'error', timestamp: '2023-03-24T12:01:34.271Z' }
+{ level: 'error', timestamp: '2023-03-24T12:14:26.868Z' }
+{ level: 'error', timestamp: '2023-03-24T12:27:18.024Z' }
+{ level: 'error', timestamp: '2023-03-24T12:32:00.434Z' }
+{ level: 'error', timestamp: '2023-03-24T12:45:08.465Z' }
+{ level: 'error', timestamp: '2023-03-24T12:55:10.464Z' }
+{ level: 'error', timestamp: '2023-03-24T12:55:10.506Z' }
+{ level: 'error', timestamp: '2023-03-24T12:55:10.508Z' }
+{ level: 'error', timestamp: '2023-03-24T12:56:36.532Z' }
+{ level: 'error', timestamp: '2023-03-24T12:56:36.569Z' }
+{ level: 'error', timestamp: '2023-03-24T12:56:36.570Z' }
+{ level: 'error', timestamp: '2023-03-24T13:00:42.549Z' }
+{ level: 'error', timestamp: '2023-03-24T13:00:42.582Z' }
+{ level: 'error', timestamp: '2023-03-24T13:00:42.585Z' }
+{ level: 'error', timestamp: '2023-03-24T13:02:16.387Z' }
+{ level: 'error', timestamp: '2023-03-24T13:02:16.465Z' }
+{ level: 'error', timestamp: '2023-03-24T13:02:16.469Z' }
+{ level: 'error', timestamp: '2023-03-24T13:03:51.362Z' }
+{ level: 'error', timestamp: '2023-03-24T13:03:51.417Z' }
+{ level: 'error', timestamp: '2023-03-24T13:03:51.419Z' }
+{ level: 'error', timestamp: '2023-03-24T13:05:56.066Z' }
+{ level: 'error', timestamp: '2023-03-24T13:05:56.115Z' }
+{ level: 'error', timestamp: '2023-03-24T13:05:56.116Z' }
+{ level: 'error', timestamp: '2023-03-24T13:07:05.661Z' }
+{ level: 'error', timestamp: '2023-03-24T13:07:05.695Z' }
+{ level: 'error', timestamp: '2023-03-24T13:07:05.723Z' }
+{ level: 'error', timestamp: '2023-03-24T13:15:36.907Z' }
+{ level: 'error', timestamp: '2023-03-24T13:15:36.967Z' }
+{ level: 'error', timestamp: '2023-03-24T13:15:36.990Z' }
+{ level: 'error', timestamp: '2023-03-24T13:15:37.028Z' }
+{ level: 'error', timestamp: '2023-03-24T13:16:37.110Z' }
+{ level: 'error', timestamp: '2023-03-24T13:16:37.130Z' }
+{ level: 'error', timestamp: '2023-03-24T13:16:37.141Z' }
+{ level: 'error', timestamp: '2023-03-24T13:16:37.189Z' }
+{ level: 'error', timestamp: '2023-03-24T13:17:00.833Z' }
+{ level: 'error', timestamp: '2023-03-24T13:17:00.860Z' }
+{ level: 'error', timestamp: '2023-03-24T13:17:00.871Z' }
+{ level: 'error', timestamp: '2023-03-24T13:17:00.916Z' }
+{ level: 'error', timestamp: '2023-03-24T13:18:08.407Z' }
+{ level: 'error', timestamp: '2023-03-24T13:18:08.458Z' }
+{ level: 'error', timestamp: '2023-03-24T13:18:08.474Z' }
+{ level: 'error', timestamp: '2023-03-24T13:18:08.534Z' }
+{ level: 'error', timestamp: '2023-03-24T13:21:13.226Z' }
+{ level: 'error', timestamp: '2023-03-24T13:21:13.336Z' }
+{ level: 'error', timestamp: '2023-03-24T13:21:13.350Z' }
+{ level: 'error', timestamp: '2023-03-24T13:21:13.406Z' }
+{ level: 'error', timestamp: '2023-03-24T13:24:49.383Z' }
+{ level: 'error', timestamp: '2023-03-24T13:24:49.404Z' }
+{ level: 'error', timestamp: '2023-03-24T13:24:49.412Z' }
+{ level: 'error', timestamp: '2023-03-24T13:24:49.464Z' }
+{ level: 'error', timestamp: '2023-03-24T13:28:23.429Z' }
+{ level: 'error', timestamp: '2023-03-24T13:28:23.454Z' }
+{ level: 'error', timestamp: '2023-03-24T13:28:23.463Z' }
+{ level: 'error', timestamp: '2023-03-24T13:28:23.505Z' }
+{ level: 'error', timestamp: '2023-03-25T12:54:55.490Z' }
+{ level: 'error', timestamp: '2023-03-25T12:54:55.574Z' }
+{ level: 'error', timestamp: '2023-03-25T12:54:55.576Z' }
+{ level: 'error', timestamp: '2023-03-25T12:59:39.879Z' }
+{ level: 'error', timestamp: '2023-03-25T12:59:39.924Z' }
+{ level: 'error', timestamp: '2023-03-25T12:59:39.925Z' }
+{ level: 'error', timestamp: '2023-03-25T13:00:14.442Z' }
+{ level: 'error', timestamp: '2023-03-25T13:00:14.476Z' }
+{ level: 'error', timestamp: '2023-03-25T13:00:14.481Z' }
+{ level: 'error', timestamp: '2023-03-25T13:01:23.774Z' }
+{ level: 'error', timestamp: '2023-03-25T13:01:23.828Z' }
+{ level: 'error', timestamp: '2023-03-25T13:01:23.834Z' }
+{ level: 'error', timestamp: '2023-03-25T13:07:16.818Z' }
+{ level: 'error', timestamp: '2023-03-25T13:07:16.844Z' }
+{ level: 'error', timestamp: '2023-03-25T13:07:16.855Z' }
+{ level: 'error', timestamp: '2023-03-25T13:07:16.905Z' }
+{ level: 'error', timestamp: '2023-03-25T13:11:52.883Z' }
+{ level: 'error', timestamp: '2023-03-25T13:11:52.918Z' }
+{ level: 'error', timestamp: '2023-03-25T13:11:52.920Z' }
+{ level: 'error', timestamp: '2023-03-25T13:16:28.841Z' }
+{ level: 'error', timestamp: '2023-03-25T13:16:28.877Z' }
+{ level: 'error', timestamp: '2023-03-25T13:19:48.789Z' }
+{ level: 'error', timestamp: '2023-03-25T13:19:48.836Z' }
+{ level: 'error', timestamp: '2023-03-25T13:22:21.877Z' }
+{ level: 'error', timestamp: '2023-03-25T13:22:21.916Z' }
+{ level: 'error', timestamp: '2023-03-25T13:24:14.311Z' }
+{ level: 'error', timestamp: '2023-03-25T13:24:14.373Z' }
+{ level: 'error', timestamp: '2023-03-25T13:24:46.642Z' }
+{ level: 'error', timestamp: '2023-03-25T13:24:46.722Z' }
+{ level: 'error', timestamp: '2023-03-25T13:26:20.305Z' }
+{ level: 'error', timestamp: '2023-03-25T13:26:20.353Z' }
+{ level: 'error', timestamp: '2023-03-25T13:26:20.355Z' }
+{ level: 'error', timestamp: '2023-03-27T11:52:49.199Z' }
+{ level: 'error', timestamp: '2023-03-27T11:52:49.278Z' }
+{ level: 'error', timestamp: '2023-03-27T12:35:09.296Z' }
+{ level: 'error', timestamp: '2023-03-27T12:37:57.486Z' }
+{ level: 'error', timestamp: '2023-03-27T12:37:57.537Z' }
+{ level: 'error', timestamp: '2023-03-27T12:40:18.929Z' }
+{ level: 'error', timestamp: '2023-03-27T12:40:18.998Z' }
+{ level: 'error', timestamp: '2023-03-27T12:40:56.100Z' }
+{ level: 'error', timestamp: '2023-03-27T12:40:56.136Z' }
+{ level: 'error', timestamp: '2023-03-27T12:41:54.569Z' }
+{ level: 'error', timestamp: '2023-03-27T12:41:54.703Z' }
+{ level: 'error', timestamp: '2023-03-27T12:47:30.016Z' }
+{ level: 'error', timestamp: '2023-03-27T12:49:27.265Z' }
+{ level: 'error', timestamp: '2023-03-27T12:52:28.126Z' }
+{ level: 'error', timestamp: '2023-03-27T12:54:19.219Z' }
+{ level: 'error', timestamp: '2023-03-27T12:56:18.702Z' }
+{ level: 'error', timestamp: '2023-03-27T12:56:52.925Z' }
+{ level: 'error', timestamp: '2023-03-27T12:56:52.967Z' }
+{ level: 'error', timestamp: '2023-03-27T12:58:32.480Z' }
+{ level: 'error', timestamp: '2023-03-27T12:58:32.516Z' }
+{ level: 'error', timestamp: '2023-03-27T12:59:56.429Z' }
+{ level: 'error', timestamp: '2023-03-27T12:59:56.463Z' }
+{ level: 'error', timestamp: '2023-03-27T13:01:44.312Z' }
+{ level: 'error', timestamp: '2023-03-27T13:02:37.505Z' }
+{ level: 'error', timestamp: '2023-03-27T13:04:08.354Z' }
+{ level: 'error', timestamp: '2023-03-27T13:06:46.609Z' }
+{ level: 'error', timestamp: '2023-03-27T13:09:08.585Z' }
+{ level: 'error', timestamp: '2023-03-27T13:10:58.067Z' }
+{ level: 'error', timestamp: '2023-03-27T13:12:21.597Z' }
+{ level: 'error', timestamp: '2023-03-27T13:18:04.422Z' }
+{ level: 'error', timestamp: '2023-03-27T13:18:04.495Z' }
+{ level: 'error', timestamp: '2023-03-27T13:37:50.958Z' }
+{ level: 'error', timestamp: '2023-03-27T13:38:50.900Z' }
+{ level: 'error', timestamp: '2023-03-27T13:43:51.863Z' }
+{ level: 'error', timestamp: '2023-03-27T13:44:40.757Z' }
+{ level: 'error', timestamp: '2023-03-27T13:47:37.647Z' }
+{ level: 'error', timestamp: '2023-03-27T13:49:02.545Z' }
+{ level: 'error', timestamp: '2023-03-27T13:49:41.739Z' }
+{ level: 'error', timestamp: '2023-03-27T13:50:22.782Z' }
+{ level: 'error', timestamp: '2023-03-27T13:51:03.159Z' }
+{ level: 'error', timestamp: '2023-03-27T13:51:24.401Z' }
