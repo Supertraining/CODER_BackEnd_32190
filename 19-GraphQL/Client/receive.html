@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receive palabra</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <h1>Productos</h1>
+    <h3 id="server"></h3>
+    <div>
+        <ul>
+            
+        </ul>
+    </div>
+
+    <h2>Productos por Id</h2>
+    <h3 id="serverI"></h3>
+
+    <div>
+        <ul id="byId">
+
+        </ul>
+
+    </div>
+
+    <script>
+
+        async function getProducts() {
+            const { data: productos, status: status, statusText : statusText } = await axios('http://localhost:8080/products')
+
+            const respuestaDelServidor = status
+            document.getElementById('server').innerHTML = `Respuesta del servidor: ${respuestaDelServidor}, statusText: ${statusText}`
+            const html = productos.map((el) => {
+                return `
+                <li>ID: ${el.id}</li>
+                <li>Nombre: ${el.nombre}</li>
+                <li>Precio: ${el.precio}</li>
+                <li>Imagen: ${el.imagen}</li>
+                <hr>
+                `;
+            }).join(' ')
+            document.querySelector('ul').innerHTML = html;
+            
+        }
+        async function getById() {
+          
+            const { data, status, statusText } = await axios('http://localhost:8080/products/110')
+            const html = data.map((el) => {
+                return `
+                <li>ID: ${el.id}</li>
+                <li>Nombre: ${el.nombre}</li>
+                <li>Precio: ${el.precio}</li>
+                <li>Imagen: ${el.imagen}</li>
+                <hr>
+                `;
+            }).join(' ')
+            document.getElementById('byId').innerHTML = html;
+            document.getElementById('serverI').innerHTML = `Respuesta del servidor: ${status}, statusText: ${statusText}`
+        }
+
+        window.ononline = getProducts()
+        window.ononline = getById()
+
+    </script>
+
+</body>
+
+</html>

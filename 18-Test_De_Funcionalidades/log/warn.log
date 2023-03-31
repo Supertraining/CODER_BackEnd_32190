@@ -2298,3 +2298,198 @@
   level: 'warn',
   timestamp: '2023-03-27T12:56:18.730Z'
 }
+{
+  message: 'Ruta GET /imagenDeprueba.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:00:32.875Z'
+}
+{
+  message: 'Ruta GET /pruebaUpdated.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:00:32.883Z'
+}
+{
+  message: 'Ruta GET /peral.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:00:32.927Z'
+}
+{
+  message: 'Ruta GET /tamaACTUAL.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:00:33.023Z'
+}
+{
+  message: 'Ruta GET /gibson1Actualizada.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:00:33.039Z'
+}
+{
+  message: 'Ruta GET /prueba1.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:00:33.070Z'
+}
+{
+  message: 'Ruta GET /gibsonActualizafa.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:00:33.138Z'
+}
+{
+  message: 'Ruta GET /prueba12.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:00:33.147Z'
+}
+{
+  message: 'Ruta GET /tama.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:00:33.190Z'
+}
+{
+  message: 'Ruta GET /gibson2.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:00:33.248Z'
+}
+{
+  message: 'Ruta GET /cerve.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:00:33.269Z'
+}
+{
+  message: 'Ruta GET /gibson.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:00:33.313Z'
+}
+{
+  message: 'Ruta GET /cervNegra.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:00:33.426Z'
+}
+{
+  message: 'Ruta GET /imagenDeprueba.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:26:13.595Z'
+}
+{
+  message: 'Ruta GET /tama.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:26:13.657Z'
+}
+{
+  message: 'Ruta GET /gibson2.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:26:13.695Z'
+}
+{
+  message: 'Ruta GET /peral.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:26:13.735Z'
+}
+{
+  message: 'Ruta GET /tamaACTUAL.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:26:13.772Z'
+}
+{
+  message: 'Ruta GET /gibson1Actualizada.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:26:13.813Z'
+}
+{
+  message: 'Ruta GET /pruebaUpdated.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:26:13.898Z'
+}
+{
+  message: 'Ruta GET /gibsonActualizafa.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:26:13.934Z'
+}
+{
+  message: 'Ruta GET /cervNegra.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:26:13.948Z'
+}
+{
+  message: 'Ruta GET /cerve.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:26:14.032Z'
+}
+{
+  message: 'Ruta GET /gibson.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:26:14.045Z'
+}
+{
+  message: 'Ruta GET /prueba1.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:26:14.153Z'
+}
+{
+  message: 'Ruta GET /prueba12.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:26:14.226Z'
+}
+{
+  message: 'Ruta GET /imagenDeprueba.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:26:29.908Z'
+}
+{
+  message: 'Ruta GET /pruebaUpdated.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:26:29.915Z'
+}
+{
+  message: 'Ruta GET /tama.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:26:29.918Z'
+}
+{
+  message: 'Ruta GET /tamaACTUAL.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:26:30.067Z'
+}
+{
+  message: 'Ruta GET /gibson1Actualizada.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:26:30.071Z'
+}
+{
+  message: 'Ruta GET /prueba1.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:26:30.086Z'
+}
+{
+  message: 'Ruta GET /gibsonActualizafa.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:26:30.166Z'
+}
+{
+  message: 'Ruta GET /peral.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:26:30.185Z'
+}
+{
+  message: 'Ruta GET /gibson2.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:26:30.207Z'
+}
+{
+  message: 'Ruta GET /prueba12.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:26:30.211Z'
+}
+{
+  message: 'Ruta GET /cervNegra.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:26:30.218Z'
+}
+{
+  message: 'Ruta GET /cerve.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:26:30.227Z'
+}
+{
+  message: 'Ruta GET /gibson.jpg no esta implementada',
+  level: 'warn',
+  timestamp: '2023-03-27T15:26:30.318Z'
+}
