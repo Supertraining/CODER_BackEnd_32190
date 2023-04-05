@@ -651,3 +651,13 @@
 { level: 'error', timestamp: '2023-03-20T16:05:01.117Z' }
 { level: 'error', timestamp: '2023-03-20T16:40:40.083Z' }
 { level: 'error', timestamp: '2023-03-20T16:47:24.530Z' }
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true,
+  level: 'error',
+  timestamp: '2023-04-02T23:14:59.178Z'
+}

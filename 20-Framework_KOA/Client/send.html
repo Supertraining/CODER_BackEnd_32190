@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send palabra</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+
+    <button onclick="addProduct()">Add Product</button><p id="server"></p><br><hr>
+    <button onclick="deleteById()">Delete Product By Id</button>
+    <input type="text" id="deleteId"><p id="serverI"></p><br><hr>
+    <button onclick="updateById()">Update Product By Id</button>
+    <input style="margin: 10px;" type="text" id="updateId"><br>
+    Nombre: <input style="margin: 10px;" type="text" id="nombre"><br>
+    Precio: <input style="margin: 10px;" type="text" id="precio"><br>
+    Imagen: <input style="margin: 10px;" type="text" id="imagen"><p id="serverII"></p><br><hr>
+
+</body>
+<script>
+    async function addProduct() {
+        const { status, statusText } = await axios.post('http://localhost:8080/products/save', {
+            nombre: "cerveza rubia",
+            precio: 500,
+            imagen: "cerve.jpg"
+        })
+        document.getElementById('server').innerHTML = `Status: ${status}, statusText: ${statusText}`  
+    }
+    async function deleteById(id) {
+        const identifier = document.getElementById('deleteId').value
+        const { status, statusText } = await axios.delete(`http://localhost:8080/products/${identifier}`)
+        document.getElementById('serverI').innerHTML = `Status: ${status}, statusText: ${statusText}`
+    }
+    async function updateById() {
+        const identifier = document.getElementById('updateId').value
+        const nombre = document.getElementById('nombre').value
+        const precio = document.getElementById('precio').value
+        const imagen = document.getElementById('imagen').value
+        const { status, statusText} = await axios.put('http://localhost:8080/products/update', {
+            nombre: `${nombre}`,
+            precio: `${precio}`,
+            imagen: `${imagen}`,
+            id: `${identifier}`
+        })
+        document.getElementById('serverII').innerHTML = `Status: ${status}, statusText: ${statusText}`
+    }
+</script>
+
+</body>
+
+</html>

@@ -10,8 +10,7 @@ let userService = new UserService();
 
     passport.serializeUser(async (user, done) => {
 		try {
-			let usuario = await user.username
-			;
+			let usuario = await user.username;
 			done(null, usuario)			
         } catch (error) {
             logger.error(error)
@@ -58,6 +57,7 @@ export const passportRegister = async (req, res, next) => {
 	next();
 }
 export const passportLogin = async (req, res, next) => {
+	
 	try {
 		passport.use(
 			'login',
@@ -76,6 +76,7 @@ export const passportLogin = async (req, res, next) => {
 	} catch (error) {
 		routeLogger(req, 'error', error);
 	}
+	
 	next();
 }
 
