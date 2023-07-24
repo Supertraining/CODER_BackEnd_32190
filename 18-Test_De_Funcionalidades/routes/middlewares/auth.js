@@ -34,6 +34,7 @@ let userService = new UserService();
 
 export const passportRegister = async (req, res, next) => {
 	try {
+		
 		passport.use(
 			'register',
 			new LocalStrategy(
@@ -41,14 +42,17 @@ export const passportRegister = async (req, res, next) => {
 					passReqToCallback: true,
 				},
 				async (req, username, password, done) => {
-					
+				
 					let usuario = await userService.getById(username);
 					
+				
 					if (usuario) {
 						return done(null);
 					}
+					
 					let newUser = await userService.save({ username, password });
 					done(null, newUser);
+					
 				}
 			)
 		);

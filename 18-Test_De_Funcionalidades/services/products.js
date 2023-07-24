@@ -7,8 +7,10 @@ export default class ProductServices {
     }
     async getAll() {
         try {
+            
             const productos = await this.productsService.getAll();
             return productos;
+
         } catch (error) {
             logger.error(error);
         }

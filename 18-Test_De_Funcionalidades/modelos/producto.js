@@ -1,10 +1,10 @@
-export default class Producto { 
+export default class Producto {
     #id
     #nombre
     #precio
     #imagen
 
-    constructor({ nombre, precio, imagen, id }) {
+    constructor({ id, nombre, precio, imagen }) {
         this.id = id
         this.nombre = nombre
         this.precio = precio
@@ -15,7 +15,7 @@ export default class Producto {
         return this.#id
     }
     set id(id) {
-        if(!id) {
+        if (!id) {
             throw new Error('El id es un campo requerido')
         }
         this.#id = id
@@ -26,7 +26,7 @@ export default class Producto {
         return this.#nombre
     }
     set nombre(nombre) {
-        if(!nombre) {
+        if (!nombre) {
             throw new Error('El nombre es un campo requerido')
         }
         this.#nombre = nombre
@@ -36,10 +36,10 @@ export default class Producto {
         return this.#precio
     }
     set precio(precio) {
-        if(!precio) {
+        if (!precio) {
             throw new Error('El precio es un campo requerido')
         }
-        if(isNaN(precio)) {
+        if (isNaN(precio)) {
             throw new Error('El precio debe ser un numero')
         }
         this.#precio = precio
@@ -49,10 +49,10 @@ export default class Producto {
         return this.#imagen
     }
     set imagen(dni) {
-        if(!dni) {
+        if (!dni) {
             throw new Error('Imagen es un campo requerido')
         }
-        
+
         this.#imagen = dni
     }
 

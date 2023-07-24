@@ -6,10 +6,13 @@ function addProduct() {
 		precio: document.getElementById('precio').value,
 		imagen: document.getElementById('imagen').value,
 	};
+	console.log(document.getElementById('nombre').value)
 	socket.emit('new-product', producto);
 }
 function deleteProduct() {
+	
 	const id = document.getElementById('idDelete').value;
+
 	socket.emit('deleteProduct', id);
 }
 
@@ -120,7 +123,7 @@ socket.on('normalizedMessages', async (data) => {
 		mensajes: [messageSchema],
 	});
 	const mensajesDenormalizados = await normalizr.denormalize(data.result, postSchema, data.entities);
-	
+
 	const compresion = (
 		100 -
 		(JSON.stringify(data).length * 100) / JSON.stringify(mensajesDenormalizados).length

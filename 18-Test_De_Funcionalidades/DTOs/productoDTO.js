@@ -10,5 +10,6 @@ class ProductoDTO {
 export function productoDTO(producto) {
 
     return producto.map((p) => new ProductoDTO(p))
+   
 
 }

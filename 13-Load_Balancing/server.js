@@ -102,7 +102,7 @@ io.on('connection', async (Socket) => {
 	Socket.emit('normalizedMessages', messages);
 });
 
-if (cluster.isMaster && modo === 'CLUSTER') {
+if (cluster.isPrimary && modo === 'CLUSTER') {
 	console.log(`Primary Process PID ${process.pid}`);
 	for (let i = 0; i < numCPUs; i++) {
 		cluster.fork();

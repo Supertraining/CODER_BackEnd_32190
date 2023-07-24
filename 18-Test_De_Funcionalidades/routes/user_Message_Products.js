@@ -16,9 +16,8 @@ const router = express.Router();
 export const sockets = async (Socket) => {
 	logger.info('Nuevo usuario conectado');
 
-	let productos = await productsController.getAll();
-
-	Socket.emit('productos', productos);
+	
+	Socket.emit('productos', productsController.getAll() );
 
 	Socket.on('new-product', productsController.save);
 

@@ -11,9 +11,12 @@ export default class UserService {
     }
 
      async save(data)  {
-        try {
-            const usuario = { username: data.username, password: bcrypt.hashSync(data.password, bcrypt.genSaltSync(10), null) };
-            let newUser = await this.userService.save(usuario, user.model)
+         try {
+           
+             const usuario = { username: data.username, password: bcrypt.hashSync(data.password, bcrypt.genSaltSync(10), null) };
+             
+             let newUser = await this.userService.save(usuario, user.model)
+              
             return newUser;
 
         } catch (error) {

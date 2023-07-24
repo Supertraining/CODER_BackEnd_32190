@@ -6,11 +6,13 @@ export default class UserController {
         this.userService = new UserService();
     }
 
-    save = async  (data) => {
+    save = async (data) => {
+       
         try {
             const newUser = await this.userService.save(data)
             return newUser;
         } catch (error) {
+            
             logger.error(error)
         }
     }

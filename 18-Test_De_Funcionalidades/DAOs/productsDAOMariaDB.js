@@ -26,6 +26,7 @@ export default class ProductsDAOMariaDB {
 		let data = null;
 		try {
 			data = await this.knex(`${this.tabla}`).select('*');
+			
 			return productoDTO(data);
 		} catch (err) {
 			logger.error(err);

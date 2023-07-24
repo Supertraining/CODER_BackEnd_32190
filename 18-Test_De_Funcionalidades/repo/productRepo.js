@@ -12,17 +12,20 @@ export default class ProductRepo {
 	async save(product) {
 		try {
 			const productId = await this.prod.save(product);
-            return productId; 
+			return productId;
 		} catch (err) {
 			logger.error(err);
 		}
-	}                                                                          
-	
+	}
+
 	async getAll() {
 		let data = null;
 		try {
+
 			data = await this.prod.getAll()
+			
 			return data.map(p => new Producto(p).datos())
+
 		} catch (err) {
 			logger.error(err);
 			return (data = []);
@@ -41,7 +44,7 @@ export default class ProductRepo {
 
 	async delete(id) {
 		try {
-            const deleted = await this.prod.delete(id)
+			const deleted = await this.prod.delete(id)
 			return deleted
 		} catch (err) {
 			logger.error(err);
@@ -51,7 +54,7 @@ export default class ProductRepo {
 	async update(obj) {
 		try {
 			const updated = await this.prod.update(obj)
-			return new Producto(updated[0]).datos();
+			return new Producto(updated[ 0 ]).datos();
 		} catch (err) {
 			logger.error(err);
 		}

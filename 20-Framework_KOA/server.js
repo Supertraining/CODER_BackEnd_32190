@@ -1,6 +1,9 @@
 import koa from 'koa';
 import { koaBody } from 'koa-body';
 import serve from 'koa-static';
+import views from 'koa-views';
+import cors from '@koa/cors'
+
 import http from 'http';
 import { Server } from 'socket.io';
 import session from 'koa-session';
@@ -17,9 +20,9 @@ import cluster from 'cluster';
 import logger from './Logger/Logger.js';
 import * as config from './config/config.js';
 
-import cors from '@koa/cors'
+
 import ProductsRoutes from './routes/products.js';
-import views from 'koa-views';
+
 import * as url from 'url';
 
 

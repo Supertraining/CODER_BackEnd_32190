@@ -13,8 +13,8 @@ import logger from './Logger/Logger.js';
 import * as config from './config/config.js';
 import noRouteRouter from './routes/non-ExistentRoutes.js';
 import cors from 'cors';
-
 import ProductsRoutes from './routes/products.js';
+
 const productRouter =  new ProductsRoutes();
 
 const app = express();
@@ -41,10 +41,12 @@ app.use('/api/', fakerRouter);
 app.use('/products', productRouter.start());
 app.use(noRouteRouter)
 
+import parseArgs from 'minimist';
+
 
 io.on('connection', sockets);
 
-if (cluster.isMaster && config.modo === 'CLUSTER') {
+if (cluster.isPrimary && config.modo === 'CLUSTER') {
 	logger.info(`Primary Process PID ${process.pid}`);
 	for (let i = 0; i < config.numCPUs; i++) {
 		cluster.fork();

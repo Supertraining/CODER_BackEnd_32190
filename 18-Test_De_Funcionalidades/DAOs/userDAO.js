@@ -8,7 +8,7 @@ let instance = null;
 
 class UsersDAO {
 	constructor() {
-		
+
 		if (!instance) {
 			instance = this;
 			logger.info('Se ha Creado una nueva instancia de UsersDAO');
@@ -19,7 +19,9 @@ class UsersDAO {
 	}
 	save = async (data, model) => {
 		try {
+
 			const dataDb = await model.insertMany(data);
+
 			return usuarioDTO(dataDb)
 
 		} catch (err) {

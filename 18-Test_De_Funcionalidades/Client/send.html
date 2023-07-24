@@ -11,24 +11,29 @@
 
 <body>
 
-    <button onclick="addProduct()">Add Product</button><p id="server"></p><br><hr>
     <button onclick="deleteById()">Delete Product By Id</button>
-    <input type="text" id="deleteId"><p id="serverI"></p><br><hr>
+    <input type="text" id="deleteId">
+    <p id="serverI"></p><br>
+    <hr>
     <button onclick="updateById()">Update Product By Id</button>
     <input style="margin: 10px;" type="text" id="updateId"><br>
     Nombre: <input style="margin: 10px;" type="text" id="nombre"><br>
     Precio: <input style="margin: 10px;" type="text" id="precio"><br>
-    Imagen: <input style="margin: 10px;" type="text" id="imagen"><p id="serverII"></p><br><hr>
+    Imagen: <input style="margin: 10px;" type="text" id="imagen">
+    <p id="serverII"></p><br>
+    <button onclick="addProduct()">Add Product</button>
+    <p id="server"></p><br>
+    <hr>
 
 </body>
 <script>
     async function addProduct() {
         const { status, statusText } = await axios.post('http://localhost:8080/products/save', {
-            nombre: "cerveza rubia",
-            precio: 500,
-            imagen: "cerve.jpg"
+            nombre: document.getElementById('nombre').value,
+            precio: document.getElementById('precio').value,
+            imagen: document.getElementById('imagen').value
         })
-        document.getElementById('server').innerHTML = `Status: ${status}, statusText: ${statusText}`  
+        document.getElementById('server').innerHTML = `Status: ${status}, statusText: ${statusText}`
     }
     async function deleteById(id) {
         const identifier = document.getElementById('deleteId').value
@@ -40,7 +45,7 @@
         const nombre = document.getElementById('nombre').value
         const precio = document.getElementById('precio').value
         const imagen = document.getElementById('imagen').value
-        const { status, statusText} = await axios.put('http://localhost:8080/products/update', {
+        const { status, statusText } = await axios.put('http://localhost:8080/products/update', {
             nombre: `${nombre}`,
             precio: `${precio}`,
             imagen: `${imagen}`,
