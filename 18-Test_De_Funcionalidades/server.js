@@ -41,8 +41,6 @@ app.use('/api/', fakerRouter);
 app.use('/products', productRouter.start());
 app.use(noRouteRouter)
 
-import parseArgs from 'minimist';
-
 
 io.on('connection', sockets);
 
