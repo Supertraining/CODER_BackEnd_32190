@@ -39,8 +39,7 @@ class ContenedorLocalProductos {
 
 	async getById(n) {
 		let data = await this.getAll();
-		const newData = JSON.parse(data);
-		const exists = newData.find((e) => e.id === n);
+		const exists = data.find((e) => e.id === n);
 		return(exists)
 		? (exists)
 		: { error: 'el producto no existe' };
