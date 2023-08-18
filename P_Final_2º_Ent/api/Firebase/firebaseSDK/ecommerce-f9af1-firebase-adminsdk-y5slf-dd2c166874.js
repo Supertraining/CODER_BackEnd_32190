@@ -1,6 +1,6 @@
 import dotenv from 'dotenv';
 dotenv.config()
-
+//No se deberian ver las key
 const serviceAccount = {
   type: "service_account",
   project_id: "ecommerce-f9af1",
